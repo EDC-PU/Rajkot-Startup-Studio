@@ -8,6 +8,12 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, Zap, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 const NavLink = ({ href, label, onClick, target }: { href: string; label: string; onClick?: () => void, target?: string }) => {
   const pathname = usePathname();
@@ -31,7 +37,6 @@ const NavLink = ({ href, label, onClick, target }: { href: string; label: string
 
 export default function Header() {
   const [isSheetOpen, setSheetOpen] = useState(false);
-  const [programsDropdownOpen, setProgramsDropdownOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-card/80 backdrop-blur-sm">
@@ -43,22 +48,18 @@ export default function Header() {
         
         <nav className="hidden md:flex flex-1 items-center justify-center gap-6">
           
-          <div 
-            className="relative"
-            onMouseEnter={() => setProgramsDropdownOpen(true)}
-            onMouseLeave={() => setProgramsDropdownOpen(false)}
-          >
-            <div className="flex items-center cursor-pointer text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
+          <DropdownMenu>
+            <DropdownMenuTrigger className="flex items-center cursor-pointer text-sm font-medium text-muted-foreground transition-colors hover:text-primary outline-none">
               Programs <ChevronDown size={18} />
-            </div>
-            {programsDropdownOpen && (
-              <div className="absolute top-full left-0 mt-2 w-48 bg-card border rounded-md shadow-lg py-1 z-20">
-                <Link href="https://www.pierc.org/growthpad-program" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm text-muted-foreground hover:bg-muted hover:text-primary" onClick={() => setProgramsDropdownOpen(false)}>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent>
+              <DropdownMenuItem asChild>
+                <Link href="https://www.pierc.org/growthpad-program" target="_blank" rel="noopener noreferrer">
                     Growth Pad Program
                 </Link>
-              </div>
-            )}
-          </div>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
           
           <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank"/>
           <NavLink href="/contact" label="Contact" />
