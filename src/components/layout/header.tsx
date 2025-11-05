@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Zap } from 'lucide-react';
+import { Menu, Zap, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
@@ -16,16 +16,17 @@ const navLinks = [
   { href: '/events', label: 'Events' },
   { href: '/success-stories', label: 'Success Stories' },
   { href: '/idea-generator', label: 'Idea Generator' },
-  { href: '/contact', label: 'Contact' },
 ];
 
-const NavLink = ({ href, label, onClick }: { href: string; label: string; onClick?: () => void }) => {
+const NavLink = ({ href, label, onClick, target }: { href: string; label: string; onClick?: () => void, target?: string }) => {
   const pathname = usePathname();
   const isActive = pathname === href;
 
   return (
     <Link
       href={href}
+      target={target}
+      rel={target === '_blank' ? 'noopener noreferrer' : undefined}
       className={cn(
         "text-sm font-medium transition-colors hover:text-primary",
         isActive ? "text-primary" : "text-muted-foreground"
@@ -39,6 +40,7 @@ const NavLink = ({ href, label, onClick }: { href: string; label: string; onClic
 
 export default function Header() {
   const [isSheetOpen, setSheetOpen] = useState(false);
+  const [programsDropdownOpen, setProgramsDropdownOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-card/80 backdrop-blur-sm">
@@ -51,6 +53,26 @@ export default function Header() {
           {navLinks.map((link) => (
             <NavLink key={link.href} href={link.href} label={link.label} />
           ))}
+
+          <div 
+            className="relative"
+            onMouseEnter={() => setProgramsDropdownOpen(true)}
+            onMouseLeave={() => setProgramsDropdownOpen(false)}
+          >
+            <div className="flex items-center cursor-pointer text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
+              Programs <ChevronDown size={18} />
+            </div>
+            {programsDropdownOpen && (
+              <div className="absolute top-full left-0 mt-2 w-48 bg-card border rounded-md shadow-lg py-1 z-20">
+                <Link href="https://www.pierc.org/growthpad-program" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm text-muted-foreground hover:bg-muted hover:text-primary" onClick={() => setProgramsDropdownOpen(false)}>
+                    Growth Pad Program
+                </Link>
+              </div>
+            )}
+          </div>
+          
+          <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank"/>
+          <NavLink href="/contact" label="Contact" />
         </nav>
         <div className="flex items-center gap-4 md:ml-auto">
           <div className="md:hidden">
@@ -71,6 +93,14 @@ export default function Header() {
                         {navLinks.map((link) => (
                             <NavLink key={link.href} href={link.href} label={link.label} onClick={() => setSheetOpen(false)} />
                         ))}
+                        <div className="grid gap-2">
+                            <p className="font-medium">Programs</p>
+                            <Link href="https://www.pierc.org/growthpad-program" target="_blank" rel="noopener noreferrer" className="pl-4 text-sm text-muted-foreground hover:text-primary" onClick={() => setSheetOpen(false)}>
+                                Growth Pad Program
+                            </Link>
+                        </div>
+                        <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank" onClick={() => setSheetOpen(false)} />
+                        <NavLink href="/contact" label="Contact" onClick={() => setSheetOpen(false)} />
                     </nav>
                 </div>
               </SheetContent>
