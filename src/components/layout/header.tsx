@@ -26,7 +26,7 @@ const NavLink = ({ href, label, onClick, target }: { href: string; label: string
       rel={target === '_blank' ? 'noopener noreferrer' : undefined}
       className={cn(
         "text-sm font-medium transition-colors hover:text-primary",
-        isActive ? "text-primary" : "text-muted-foreground"
+        isActive ? "text-primary" : "text-foreground"
       )}
       onClick={onClick}
     >
@@ -49,7 +49,7 @@ export default function Header() {
         <nav className="hidden md:flex flex-1 items-center justify-center gap-6">
           
           <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center cursor-pointer text-sm font-medium text-muted-foreground transition-colors hover:text-primary outline-none">
+            <DropdownMenuTrigger className="flex items-center cursor-pointer text-sm font-medium text-foreground transition-colors hover:text-primary outline-none">
               Programs <ChevronDown size={18} />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
@@ -95,7 +95,7 @@ export default function Header() {
               </SheetContent>
             </Sheet>
           </div>
-          <Button asChild className="hidden md:flex bg-accent hover:bg-accent/90 text-accent-foreground">
+          <Button asChild className="hidden md:flex">
             <Link href="/book-seats">Book Seats</Link>
           </Button>
         </div>

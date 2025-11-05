@@ -65,8 +65,11 @@ const GovernorsCarousel = () => {
     arrows: false,
     appendDots: (dots: React.ReactNode) => (
       <div style={{ bottom: '20px' }}>
-        <ul>{dots}</ul>
+        <ul className="m-0 p-0">{dots}</ul>
       </div>
+    ),
+     customPaging: (i: number) => (
+      <div className="w-2.5 h-2.5 bg-white/50 rounded-full transition-colors duration-300 hover:bg-white" />
     ),
   };
 
@@ -74,10 +77,8 @@ const GovernorsCarousel = () => {
 
   return (
     <div
-      className="relative w-full py-16 text-white overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: bgImage ? `url(${bgImage.imageUrl})` : undefined }}
+      className="relative w-full py-16 text-foreground overflow-hidden bg-cover bg-center bg-card"
     >
-        <div className="absolute inset-0 bg-gray-900/70" />
         <div className="container mx-auto px-4 md:px-6 relative z-10">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
                 Board of Governors
@@ -95,7 +96,7 @@ const GovernorsCarousel = () => {
                                         alt={person.name}
                                         width={220}
                                         height={220}
-                                        className="rounded-full object-cover border-4 border-white shadow-lg"
+                                        className="rounded-full object-cover border-4 border-background shadow-lg"
                                         data-ai-hint={personImage.imageHint}
                                     />
                                     </div>
@@ -103,7 +104,7 @@ const GovernorsCarousel = () => {
                                 <div className="text-center md:text-left">
                                     <h3 className="text-2xl font-bold">{person.name}</h3>
                                     <p className="text-md text-primary font-semibold mt-1 mb-3">{person.designation}</p>
-                                    <p className="text-base text-gray-200">{person.description}</p>
+                                    <p className="text-base text-muted-foreground">{person.description}</p>
                                 </div>
                             </div>
                         </div>

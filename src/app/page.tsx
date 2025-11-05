@@ -22,14 +22,14 @@ const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
 
 export default function Home() {
   return (
-    <div className="flex flex-col bg-gray-900 text-white">
-      <section className="relative w-full py-32 md:py-48 lg:py-60 flex items-center justify-center text-center">
+    <div className="flex flex-col bg-background text-foreground">
+      <section className="relative w-full py-32 md:py-48 lg:py-60 flex items-center justify-center text-center bg-card">
         {heroImage && (
             <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
                 fill
-                className="object-cover z-0 opacity-20"
+                className="object-cover z-0 opacity-5"
                 data-ai-hint={heroImage.imageHint}
                 priority
             />
@@ -37,13 +37,13 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
-              Built to <span className="text-red-500">Innovate</span>, Designed to <span className="text-red-500">Inspire</span> and Driven to <span className="text-red-500">Succeed</span>.
+              Built to <span className="text-primary">Innovate</span>, Designed to <span className="text-primary">Inspire</span> and Driven to <span className="text-primary">Succeed</span>.
             </h1>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className='bg-red-600 hover:bg-red-700 text-white'>
+              <Button asChild size="lg">
                 <Link href="/book-seats">Book a Space</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900">
+              <Button asChild size="lg" variant="outline">
                 <Link href="/contact">Contact Us</Link>
               </Button>
             </div>
@@ -53,16 +53,16 @@ export default function Home() {
 
       <JoinNetwork />
 
-      <section className="py-16 md:py-24 bg-gray-800">
+      <section className="py-16 md:py-24 bg-card">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl font-bold">Our Story</h2>
-              <p className="text-gray-300">
+              <p className="text-muted-foreground">
                 Vadodara Startup Studio, established by PIERC, Parul University in 2021, offers resources, guidance, and an acceleration program to aspiring entrepreneurs. With state-of-the-art infrastructure and mentorship, the studio promotes collaboration, innovation, and inclusivity, serving as the management center for other startup studios in the state.
               </p>
                <h3 className="text-2xl font-bold pt-4">PU Startup Studios</h3>
-               <p className="text-gray-300">
+               <p className="text-muted-foreground">
                 PIERC is expanding its reach with the opening of new extension branches in Rajkot, Vadodara, Ahmedabad, and Surat. This expansion reflects PIERC's continued commitment to providing businesses with innovative solutions and personalized services while reaching out to new communities in Gujarat. We are proud of PIERC's dedication to empowering businesses with cutting-edge technologies and services that drive growth and success. We invite all entrepreneurs and business owners in these regions to visit our new branches and experience the value that PIERC can bring to their businesses.
                </p>
             </div>
@@ -86,11 +86,11 @@ export default function Home() {
       
       <AvailableSpaces />
 
-      <section id="featured-startups" className="py-16 md:py-24 bg-gray-800">
+      <section id="featured-startups" className="py-16 md:py-24 bg-card">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold">Featured Startups</h2>
-            <p className="mt-4 text-gray-300">
+            <p className="mt-4 text-muted-foreground">
               A glimpse into the brilliant companies building and growing with us.
             </p>
           </div>
@@ -108,7 +108,7 @@ export default function Home() {
                   return (
                     <CarouselItem key={startup.id} className="md:basis-1/2 lg:basis-1/3">
                       <div className="p-1 h-full">
-                        <Card className="h-full bg-gray-700 border-gray-600">
+                        <Card className="h-full bg-background border">
                           <CardContent className="flex flex-col items-center text-center p-6 h-full">
                             {logo && (
                                 <div className="relative w-24 h-24 mb-4">
@@ -122,9 +122,9 @@ export default function Home() {
                                   />
                                 </div>
                             )}
-                            <h3 className="text-xl font-semibold text-white">{startup.name}</h3>
-                            <p className="mt-2 text-gray-300 flex-grow">{startup.description}</p>
-                            <Button asChild variant="outline" className="mt-4 border-gray-500 text-white hover:bg-gray-600">
+                            <h3 className="text-xl font-semibold text-foreground">{startup.name}</h3>
+                            <p className="mt-2 text-muted-foreground flex-grow">{startup.description}</p>
+                            <Button asChild variant="outline" className="mt-4">
                               <Link href={startup.website} target="_blank" rel="noopener noreferrer">
                                 Visit Website
                               </Link>
@@ -136,20 +136,20 @@ export default function Home() {
                   );
                 })}
               </CarouselContent>
-              <CarouselPrevious className="ml-12 text-white bg-gray-700 hover:bg-gray-600 border-gray-600" />
-              <CarouselNext className="mr-12 text-white bg-gray-700 hover:bg-gray-600 border-gray-600" />
+              <CarouselPrevious className="ml-12" />
+              <CarouselNext className="mr-12" />
             </Carousel>
           </div>
         </div>
       </section>
 
-      <section id="contact" className="py-16 md:py-24 bg-gray-900">
+      <section id="contact" className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Join Our Community</h2>
-          <p className="mt-4 text-gray-300 max-w-xl mx-auto">
+          <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
             Have a groundbreaking idea or want to learn more about our programs? We'd love to hear from you.
           </p>
-          <Button asChild size="lg" className="mt-8 bg-red-600 hover:bg-red-700 text-white">
+          <Button asChild size="lg" className="mt-8">
             <Link href="/contact">Contact Us</Link>
           </Button>
         </div>
