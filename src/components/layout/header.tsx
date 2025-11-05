@@ -9,10 +9,6 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, Zap, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-const navLinks = [
-  { href: '/about', label: 'About Us' },
-];
-
 const NavLink = ({ href, label, onClick, target }: { href: string; label: string; onClick?: () => void, target?: string }) => {
   const pathname = usePathname();
   const isActive = pathname === href;
@@ -46,8 +42,7 @@ export default function Header() {
         </Link>
         
         <nav className="hidden md:flex flex-1 items-center justify-center gap-6">
-          <NavLink href="/about" label="About Us" />
-
+          
           <div 
             className="relative"
             onMouseEnter={() => setProgramsDropdownOpen(true)}
@@ -85,7 +80,7 @@ export default function Header() {
                         <span className="text-lg font-bold">VSS</span>
                     </Link>
                     <nav className="grid gap-4">
-                        <NavLink href="/about" label="About Us" onClick={() => setSheetOpen(false)} />
+                        
                         <div className="grid gap-2">
                             <p className="font-medium">Programs</p>
                             <Link href="https://www.pierc.org/growthpad-program" target="_blank" rel="noopener noreferrer" className="pl-4 text-sm text-muted-foreground hover:text-primary" onClick={() => setSheetOpen(false)}>
