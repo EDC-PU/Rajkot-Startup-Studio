@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import { Zap } from 'lucide-react';
+import { Zap, Instagram, Facebook, Linkedin } from 'lucide-react';
 
 const FooterLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <li>
@@ -83,10 +83,24 @@ export default function Footer() {
                       Email: vss@paruluniversity.ac.in
                   </a>
                   <a href="tel:+916358915335" className="hover:text-primary transition-colors block">
-                      Phone: +91 63589 15335
+                      Phone: +91 6358915335
                   </a>
               </div>
             </div>
+            <div className="mt-4 flex space-x-4">
+                <a href="https://www.instagram.com/vstartupstudio" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Instagram className="h-5 w-5" />
+                  <span className="sr-only">Instagram</span>
+                </a>
+                <a href="https://www.facebook.com/vstartupstudio/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Facebook className="h-5 w-5" />
+                  <span className="sr-only">Facebook</span>
+                </a>
+                <a href="https://in.linkedin.com/in/vstartupstudio" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Linkedin className="h-5 w-5" />
+                  <span className="sr-only">LinkedIn</span>
+                </a>
+              </div>
           </div>
         </div>
          <p className="text-sm text-muted-foreground text-center mt-8 border-t pt-6">
