@@ -2,6 +2,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Users, TrendingUp, IndianRupee, Briefcase, CalendarDays, Rocket } from 'lucide-react';
 import { AspectRatio } from "@/components/ui/aspect-ratio"
+import GovernorsCarousel from '@/components/about/governors-carousel';
 
 const stats = [
   {
@@ -94,6 +95,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <GovernorsCarousel />
 
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
