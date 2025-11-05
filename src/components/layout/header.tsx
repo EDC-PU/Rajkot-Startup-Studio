@@ -1,3 +1,4 @@
+
 'use client';
 
 import Link from 'next/link';
@@ -9,6 +10,7 @@ import { Menu, Zap } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
+  { href: '/about', label: 'About Us' },
   { href: '/startups', label: 'Startups' },
   { href: '/resources', label: 'Resources' },
   { href: '/events', label: 'Events' },
