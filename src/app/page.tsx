@@ -13,6 +13,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import AvailableSpaces from '@/components/home/available-spaces';
+import JoinNetwork from '@/components/home/join-network';
 
 const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
 
@@ -165,6 +166,8 @@ export default function Home() {
         </div>
       </section>
       
+      <JoinNetwork />
+
       <section id="idea-generator" className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <div className="bg-primary text-primary-foreground p-8 md:p-12 rounded-lg text-center">

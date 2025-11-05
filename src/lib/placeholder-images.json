@@ -143,6 +143,12 @@
       "description": "Abstract background for governors section",
       "imageUrl": "https://images.unsplash.com/photo-1621947081720-86970823b77a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzYyMzEwMDE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract background"
+    },
+    {
+      "id": "network-map",
+      "description": "Map representing the PIERC Startup Network",
+      "imageUrl": "https://images.unsplash.com/photo-1596204477969-a1b734b41a7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b3JsZCUyMG1hcCUyMGlubm92YXRpb258ZW58MHx8fHwxNzYyMzc5ODQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "world map"
     }
   ]
 }
