@@ -67,12 +67,6 @@
       "imageHint": "sustainable product"
     },
     {
-      "id": "idea-generator-bg",
-      "description": "Abstract image for idea generator",
-      "imageUrl": "https://images.unsplash.com/photo-1621772304863-a65c644cd226?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGlkZWF8ZW58MHx8fHwxNzYyMzUzMzkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract idea"
-    },
-    {
       "id": "private-cabins",
       "description": "Modern private office cabin",
       "imageUrl": "https://images.unsplash.com/photo-1724219616919-aab943e7b00d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJpdmF0ZSUyMG9mZmljZXxlbnwwfHx8fDE3NjIyNjc0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",

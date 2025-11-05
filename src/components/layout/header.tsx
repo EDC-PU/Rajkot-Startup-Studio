@@ -15,7 +15,6 @@ const navLinks = [
   { href: '/resources', label: 'Resources' },
   { href: '/events', label: 'Events' },
   { href: '/success-stories', label: 'Success Stories' },
-  { href: '/idea-generator', label: 'Idea Generator' },
 ];
 
 const NavLink = ({ href, label, onClick, target }: { href: string; label: string; onClick?: () => void, target?: string }) => {

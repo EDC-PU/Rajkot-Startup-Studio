@@ -168,21 +168,6 @@ export default function Home() {
       
       <JoinNetwork />
 
-      <section id="idea-generator" className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="bg-primary text-primary-foreground p-8 md:p-12 rounded-lg text-center">
-            <Lightbulb className="h-12 w-12 mx-auto mb-4 text-accent" />
-            <h2 className="text-3xl md:text-4xl font-bold">Generate Your Next Big Idea</h2>
-            <p className="mt-4 max-w-2xl mx-auto">
-              Use our AI-powered tool to brainstorm innovative startup ideas based on your interests.
-            </p>
-            <Button asChild size="lg" variant="secondary" className="mt-8 bg-accent hover:bg-accent/90 text-accent-foreground">
-              <Link href="/idea-generator">Try the Idea Generator <ArrowRight className="ml-2 h-4 w-4" /></Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
       <section id="contact" className="py-16 md:py-24 bg-card">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Join Our Community</h2>
