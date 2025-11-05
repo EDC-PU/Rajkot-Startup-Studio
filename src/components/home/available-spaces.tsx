@@ -1,8 +1,9 @@
-
 'use client';
 
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
+import { Button } from '../ui/button';
+import Link from 'next/link';
 
 const spaces = [
     { 
@@ -107,6 +108,13 @@ export default function AvailableSpaces() {
               </div>
             );
           })}
+        </div>
+        <div className="text-center mt-20">
+            <Button asChild size="lg" className='bg-accent hover:bg-accent/90 text-accent-foreground'>
+                <Link href="/book-seats">
+                    Book a Space
+                </Link>
+            </Button>
         </div>
       </div>
     </section>
