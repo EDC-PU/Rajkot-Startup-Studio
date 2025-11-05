@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
@@ -14,6 +15,7 @@ import {
 } from "@/components/ui/carousel";
 import AvailableSpaces from '@/components/home/available-spaces';
 import JoinNetwork from '@/components/home/join-network';
+import Features from '@/components/home/features';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import GovernorsCarousel from '@/components/about/governors-carousel';
 
@@ -36,8 +38,11 @@ export default function Home() {
         )}
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto">
+             <div className="mx-auto w-fit mb-4 bg-primary/10 p-4 rounded-full">
+                <Rocket className="h-10 w-10 text-primary" />
+              </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
-              Built to <span className="text-primary">Innovate</span>, Designed to <span className="text-primary">Inspire</span> and Driven to <span className="text-primary">Succeed</span>.
+              Empowering Innovators: Crafting, Launching, and Scaling Startups with Expert Guidance and Resources
             </h1>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg">
@@ -52,6 +57,8 @@ export default function Home() {
       </section>
 
       <JoinNetwork />
+
+      <Features />
 
       <section className="py-16 md:py-24 bg-card">
         <div className="container mx-auto px-4 md:px-6">
