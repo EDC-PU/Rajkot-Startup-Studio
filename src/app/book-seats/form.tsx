@@ -1,8 +1,9 @@
 
 'use client';
 
-import { useEffect, useRef } from 'react';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useEffect, useRef, useState } from 'react';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { useToast } from '@/hooks/use-toast';
 import { submitBookingForm, type BookingState } from './actions';
 
@@ -46,9 +47,10 @@ function FormField({ name, label, error, children }: { name: string; label: stri
 }
 
 export function BookSeatsForm() {
-  const [state, formAction] = useFormState(submitBookingForm, initialState);
+  const [state, formAction] = useActionState(submitBookingForm, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
+  const [phone, setPhone] = useState('');
 
   useEffect(() => {
     if (state.message) {
@@ -57,6 +59,7 @@ export function BookSeatsForm() {
         description: state.message,
       });
       formRef.current?.reset();
+      setPhone('');
     }
     if (state.error && !state.errors) {
       toast({
@@ -112,7 +115,14 @@ export function BookSeatsForm() {
             </div>
 
              <FormField name="contactNumber" label="Contact Number *" error={state.errors?.contactNumber}>
-                <Controller name="contactNumber" render={({ field }) => <PhoneInput country={'in'} {...field} />} />
+                <PhoneInput
+                    country={'in'}
+                    value={phone}
+                    onChange={setPhone}
+                    inputProps={{
+                        name: 'contactNumber'
+                    }}
+                />
             </FormField>
 
             <FormField name="fullAddress" label="Full Address of Registered Company" error={state.errors?.fullAddress}>
@@ -251,13 +261,3 @@ export function BookSeatsForm() {
     </Card>
   );
 }
-
-// Dummy Controller for react-phone-input-2 since it doesn't play nice with RSC
-const Controller = ({ name, render }: { name: string; render: (props: {field: any}) => React.ReactNode }) => {
-    return (
-        <div>
-            {render({field: { name, onChange: () => {} }})}
-            <input type="hidden" name={name} id={name} />
-        </div>
-    );
-};
