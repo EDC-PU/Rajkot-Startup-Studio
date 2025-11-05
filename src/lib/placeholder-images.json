@@ -45,7 +45,7 @@
     {
       "id": "startup-logo-collabact",
       "description": "Logo for Collab Act",
-      "imageUrl": "https://images.unsplash.com/photo-1628760584600-6c31148991e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2xsYWJvcmF0aW9uJTIwbG9nb3xlbnwwfHx8fDE3NjIzNTQzMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1628760584600-6c31148991e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2xsYWJvcmF0aW9uJTIwbG9nb3xlbnwwfHx8fDE3NjIzNTQzMjN8MA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "collaboration logo"
     },
     {
@@ -57,7 +57,7 @@
     {
       "id": "success-story-1",
       "description": "Team photo of InnovateAI",
-      "imageUrl": "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwdGVhbXxlbnwwfHx8fDE3NjIzMjM5MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwdGVhbXxlbnwwfHx8fDE3NjIzMjM5MTF8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "startup team"
     },
     {
@@ -69,7 +69,7 @@
     {
       "id": "private-cabins",
       "description": "Modern private office cabin",
-      "imageUrl": "https://images.unsplash.com/photo-1724219616919-aab943e7b00d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJpdmF0ZSUyMG9mZmljZXxlbnwwfHx8fDE3NjIyNjc0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1724219616919-aab943e7b00d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJpdmF0ZSUyMG9mZmljZXxlbnwwfHx8fDE3NjIyNjc0ODJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "private office"
     },
     {
@@ -81,67 +81,67 @@
     {
       "id": "dedicated-desks-non-ac",
       "description": "A dedicated desk in a well-ventilated room",
-      "imageUrl": "https://images.unsplash.com/photo-1518655048521-f130df041f66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvZmZpY2UlMjBkZXNrfGVufDB8fHx8MTc2MjMyMzI1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1518655048521-f130df041f66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvZmZpY2UlMjBkZXNrfGVufDB8fHx8MTc2MjMyMzI1Mnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "office desk"
     },
     {
       "id": "conference-rooms",
       "description": "A professional conference room",
-      "imageUrl": "https://images.unsplash.com/photo-1579488081757-b212dbd6ee72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb25mZXJlbmNlJTIwcm9vbXxlbnwwfHx8fDE3NjIyNjc0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579488081757-b212dbd6ee72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb25mZXJlbmNlJTIwcm9vbXxlbnwwfHx8fDE3NjIyNjc0ODJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "conference room"
     },
     {
       "id": "seminar-hall",
       "description": "A large seminar hall",
-      "imageUrl": "https://images.unsplash.com/photo-1597084214230-473c7bf05a31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhdWRpdG9yaXVtJTIwc3RhZ2V8ZW58MHx8fHwxNzYyMjY4NzI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1597084214230-473c7bf05a31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhdWRpdG9yaXVtJTIwc3RhZ2V8ZW58MHx8fHwxNzYyMjY4NzI2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "auditorium stage"
     },
     {
       "id": "governor-devanshu",
       "description": "Portrait of Dr. Devanshu J Patel",
-      "imageUrl": "https://images.unsplash.com/photo-1715423058726-ddea1ec51b66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYyMzUwMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/ztFtQvr/Devanshu-Patel.jpg",
       "imageHint": "male portrait"
     },
     {
       "id": "governor-parul",
       "description": "Portrait of Dr. Parul Patel",
-      "imageUrl": "https://images.unsplash.com/photo-1634149134664-ca3598f29da5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmZW1hbGUlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIyOTI0OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/1DTxd6Q/Parul-Patel.jpg",
       "imageHint": "female portrait"
     },
     {
       "id": "governor-geetika",
       "description": "Portrait of Dr. Geetika M. Patel",
-      "imageUrl": "https://images.unsplash.com/photo-1614204424926-196a80bf0be8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmZW1hbGUlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIyOTI0OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/84TSbTrq/Geetika-Madan-Patel.jpg",
       "imageHint": "female portrait"
     },
     {
       "id": "governor-komal",
       "description": "Portrait of Dr. Komal Patel",
-      "imageUrl": "https://images.unsplash.com/photo-1552699611-e2c208d5d9cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmZW1hbGUlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIyOTI0OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/vC02N5ty/Komal-Patel.jpg",
       "imageHint": "female portrait"
     },
     {
       "id": "governor-amit",
       "description": "Portrait of Dr. Amit Ganatra",
-      "imageUrl": "https://images.unsplash.com/photo-1715412507413-c7416b47cacb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYyMzUwMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/j9BgQ8Dc/Amit-Ganatra.jpg",
       "imageHint": "male portrait"
     },
     {
       "id": "governor-manish",
       "description": "Portrait of Manish Pandya",
-      "imageUrl": "https://images.unsplash.com/photo-1692197393247-c76e1bd8f29e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYyMzUwMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ibb.co/ZRjRZKxc/Registrar.jpg",
       "imageHint": "male portrait"
     },
     {
       "id": "governor-bg",
       "description": "Abstract background for governors section",
-      "imageUrl": "https://images.unsplash.com/photo-1621947081720-86970823b77a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzYyMzEwMDE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1621947081720-86970823b77a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzYyMzEwMDE5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract background"
     },
     {
       "id": "network-map",
       "description": "Map representing the PIERC Startup Network",
-      "imageUrl": "https://images.unsplash.com/photo-1596204477969-a1b734b41a7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b3JsZCUyMG1hcCUyMGlubm92YXRpb258ZW58MHx8fHwxNzYyMzc5ODQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1596204477969-a1b734b41a7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b3JsZCUyMG1hcCUyMGlubm92YXRpb258ZW58MHx8fHwxNzYyMzc5ODQzfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "world map"
     }
   ]
