@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Abstract blue and orange shapes representing innovation",
+      "imageUrl": "https://images.unsplash.com/photo-1759395162607-e88e492efe76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGlubm92YXRpb258ZW58MHx8fHwxNzYyMzM1OTUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract innovation"
+    },
+    {
+      "id": "startup-logo-1",
+      "description": "Logo for InnovateAI",
+      "imageUrl": "https://images.unsplash.com/photo-1662027044921-6febc57a0c53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWNoJTIwbG9nb3xlbnwwfHx8fDE3NjIzNDQ2NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech logo"
+    },
+    {
+      "id": "startup-logo-2",
+      "description": "Logo for GreenScape",
+      "imageUrl": "https://images.unsplash.com/photo-1670341445737-06f70d9b291a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY28lMjBsb2dvfGVufDB8fHx8MTc2MjM0MTczNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eco logo"
+    },
+    {
+      "id": "startup-logo-3",
+      "description": "Logo for HealthPlus",
+      "imageUrl": "https://images.unsplash.com/photo-1760860991924-237b4160efbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoZWFsdGglMjBsb2dvfGVufDB8fHx8MTc2MjI0OTUwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "health logo"
+    },
+    {
+      "id": "startup-logo-4",
+      "description": "Logo for FinSecure",
+      "imageUrl": "https://images.unsplash.com/photo-1679317932396-cae5f94067ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaW5hbmNlJTIwbG9nb3xlbnwwfHx8fDE3NjIzNTE1MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance logo"
+    },
+    {
+      "id": "startup-logo-5",
+      "description": "Logo for EduVerse",
+      "imageUrl": "https://images.unsplash.com/photo-1762330915716-69ffffeeee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlZHVjYXRpb24lMjBsb2dvfGVufDB8fHx8MTc2MjM1MzM5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "education logo"
+    },
+    {
+      "id": "startup-logo-6",
+      "description": "Logo for Foodify",
+      "imageUrl": "https://images.unsplash.com/photo-1620194544222-8c956ca15f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmb29kJTIwbG9nb3xlbnwwfHx8fDE3NjIzNTMzOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food logo"
+    },
+    {
+      "id": "success-story-1",
+      "description": "Team photo of InnovateAI",
+      "imageUrl": "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwdGVhbXxlbnwwfHx8fDE3NjIzMjM5MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "startup team"
+    },
+    {
+      "id": "success-story-2",
+      "description": "Product shot for GreenScape",
+      "imageUrl": "https://images.unsplash.com/photo-1697309006580-cda397ee09c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3VzdGFpbmFibGUlMjBwcm9kdWN0fGVufDB8fHx8MTc2MjM1MzM5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sustainable product"
+    },
+    {
+      "id": "idea-generator-bg",
+      "description": "Abstract image for idea generator",
+      "imageUrl": "https://images.unsplash.com/photo-1621772304863-a65c644cd226?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGlkZWF8ZW58MHx8fHwxNzYyMzUzMzkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract idea"
+    }
+  ]
 }
