@@ -72,6 +72,7 @@ export default function Header() {
           
           <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank"/>
           <NavLink href="/contact" label="Contact" />
+          <NavLink href="/book-seats" label="Book Seats" />
         </nav>
         <div className="flex items-center gap-4 md:ml-auto">
           <div className="md:hidden">
@@ -100,6 +101,7 @@ export default function Header() {
                         </div>
                         <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank" onClick={() => setSheetOpen(false)} />
                         <NavLink href="/contact" label="Contact" onClick={() => setSheetOpen(false)} />
+                        <NavLink href="/book-seats" label="Book Seats" onClick={() => setSheetOpen(false)} />
                     </nav>
                 </div>
               </SheetContent>
