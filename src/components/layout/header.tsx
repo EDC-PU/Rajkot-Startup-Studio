@@ -43,7 +43,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 items-center px-4 md:px-6">
         <Link href="/" className="mr-6 flex items-center gap-2">
           <Zap className="h-6 w-6 text-primary" />
-          <span className="text-lg font-bold">Vadodara Innovate Hub</span>
+          <span className="text-lg font-bold">Vadodara Startup Studio</span>
         </Link>
         <nav className="hidden md:flex flex-1 items-center gap-6">
           {navLinks.map((link) => (
@@ -63,7 +63,7 @@ export default function Header() {
                 <div className="flex flex-col gap-6 p-6">
                     <Link href="/" className="mr-6 flex items-center gap-2" onClick={() => setSheetOpen(false)}>
                         <Zap className="h-6 w-6 text-primary" />
-                        <span className="text-lg font-bold">VIH</span>
+                        <span className="text-lg font-bold">VSS</span>
                     </Link>
                     <nav className="grid gap-4">
                         {navLinks.map((link) => (

@@ -59,10 +59,10 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 text-center relative z-10">
           <div className="max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground">
-              Welcome to Vadodara Innovate Hub
+              Welcome to Vadodara Startup Studio
             </h1>
             <p className="mt-4 text-lg md:text-xl text-muted-foreground">
-              Your Launchpad for Startup Success. We empower entrepreneurs to build the future.
+              A studio of Parul Innovation &amp; Entrepreneurship Research Center. We empower entrepreneurs to build the future.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg">

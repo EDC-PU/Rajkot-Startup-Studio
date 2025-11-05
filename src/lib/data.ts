@@ -143,7 +143,7 @@ export const successStories: SuccessStory[] = [
     startupName: 'InnovateAI',
     imageUrl: 'success-story-1',
     headline: 'From Idea to Industry Leader: The InnovateAI Story',
-    fullStory: 'InnovateAI started as a simple idea in a coffee shop and has grown into a leading provider of AI-powered educational tools. Through the Vadodara Innovate Hub, they received crucial mentorship, funding, and resources that helped them scale their vision. Their platform is now used by over 50 universities and corporations worldwide, transforming the way people learn and train.',
+    fullStory: 'InnovateAI started as a simple idea in a coffee shop and has grown into a leading provider of AI-powered educational tools. Through the Vadodara Startup Studio, they received crucial mentorship, funding, and resources that helped them scale their vision. Their platform is now used by over 50 universities and corporations worldwide, transforming the way people learn and train.',
     website: '#',
   },
   {

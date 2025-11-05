@@ -5,8 +5,8 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'Vadodara Innovate Hub',
-  description: 'Your Launchpad for Startup Success',
+  title: 'Vadodara Startup Studio',
+  description: 'A studio of Parul Innovation & Entrepreneurship Research Center',
 };
 
 export default function RootLayout({
