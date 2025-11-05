@@ -7,40 +7,52 @@
       "imageHint": "abstract innovation"
     },
     {
-      "id": "startup-logo-1",
-      "description": "Logo for InnovateAI",
-      "imageUrl": "https://images.unsplash.com/photo-1662027044921-6febc57a0c53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWNoJTIwbG9nb3xlbnwwfHx8fDE3NjIzNDQ2NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "tech logo"
-    },
-    {
-      "id": "startup-logo-2",
-      "description": "Logo for GreenScape",
-      "imageUrl": "https://images.unsplash.com/photo-1670341445737-06f70d9b291a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY28lMjBsb2dvfGVufDB8fHx8MTc2MjM0MTczNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "eco logo"
-    },
-    {
-      "id": "startup-logo-3",
-      "description": "Logo for HealthPlus",
-      "imageUrl": "https://images.unsplash.com/photo-1760860991924-237b4160efbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoZWFsdGglMjBsb2dvfGVufDB8fHx8MTc2MjI0OTUwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "startup-logo-hoc",
+      "description": "Logo for Hospital On Cloud",
+      "imageUrl": "https://images.unsplash.com/photo-1636249253913-40e83d5423e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoZWFsdGglMjBsb2dvfGVufDB8fHx8MTc2MjI0OTUwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "health logo"
     },
     {
-      "id": "startup-logo-4",
-      "description": "Logo for FinSecure",
-      "imageUrl": "https://images.unsplash.com/photo-1679317932396-cae5f94067ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaW5hbmNlJTIwbG9nb3xlbnwwfHx8fDE3NjIzNTE1MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "finance logo"
+      "id": "startup-logo-galanto",
+      "description": "Logo for Galanto",
+      "imageUrl": "https://images.unsplash.com/photo-1663124178709-08bcffc5ae89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0ZWNoJTIwbG9nb3xlbnwwfHx8fDE3NjIzNDQ2NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech logo"
     },
     {
-      "id": "startup-logo-5",
-      "description": "Logo for EduVerse",
-      "imageUrl": "https://images.unsplash.com/photo-1762330915716-69ffffeeee95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlZHVjYXRpb24lMjBsb2dvfGVufDB8fHx8MTc2MjM1MzM5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "education logo"
+      "id": "startup-logo-ecosense",
+      "description": "Logo for Ecosense",
+      "imageUrl": "https://images.unsplash.com/photo-1748446460790-0f199ef1b891?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxlY28lMjBsb2dvfGVufDB8fHx8MTc2MjM0MTczNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eco logo"
     },
     {
-      "id": "startup-logo-6",
-      "description": "Logo for Foodify",
-      "imageUrl": "https://images.unsplash.com/photo-1620194544222-8c956ca15f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmb29kJTIwbG9nb3xlbnwwfHx8fDE3NjIzNTMzOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "startup-logo-drcardio",
+      "description": "Logo for Dr. Cardio",
+      "imageUrl": "https://images.unsplash.com/photo-1711006366881-5076ba350008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYXJkaW8lMjBsb2dvfGVufDB8fHx8MTc2MjM1NDMyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cardio logo"
+    },
+    {
+      "id": "startup-logo-dori",
+      "description": "Logo for Dori Handcrafts",
+      "imageUrl": "https://images.unsplash.com/photo-1694878981816-8d3c35611d7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjcmFmdCUyMGxvZ298ZW58MHx8fHwxNzYyMzU0MzIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "craft logo"
+    },
+    {
+      "id": "startup-logo-furno",
+      "description": "Logo for Furno Foods",
+      "imageUrl": "https://images.unsplash.com/photo-1593863806425-32e9e8384ce6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmb29kJTIwbG9nb3xlbnwwfHx8fDE3NjIzNTMzOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "food logo"
+    },
+    {
+      "id": "startup-logo-collabact",
+      "description": "Logo for Collab Act",
+      "imageUrl": "https://images.unsplash.com/photo-1628760584600-6c31148991e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2xsYWJvcmF0aW9uJTIwbG9nb3xlbnwwfHx8fDE3NjIzNTQzMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "collaboration logo"
+    },
+    {
+      "id": "startup-logo-spaceride",
+      "description": "Logo for Spaceride Aerotech",
+      "imageUrl": "https://images.unsplash.com/photo-1622465911368-72162f8da3e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMGxvZ298ZW58MHx8fHwxNzYyMzM3Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "space logo"
     },
     {
       "id": "success-story-1",

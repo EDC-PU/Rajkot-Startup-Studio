@@ -3,52 +3,68 @@ import type { Startup, Resource, Event, SuccessStory } from './types';
 export const startups: Startup[] = [
   {
     id: '1',
-    name: 'InnovateAI',
-    logoUrl: 'startup-logo-1',
-    description: 'Pioneering AI-driven solutions for personalized education and corporate training.',
-    website: '#',
-    industry: 'EdTech'
-  },
-  {
-    id: '2',
-    name: 'GreenScape',
-    logoUrl: 'startup-logo-2',
-    description: 'Developing sustainable urban farming technologies to bring fresh produce to city dwellers.',
-    website: '#',
-    industry: 'AgriTech'
-  },
-  {
-    id: '3',
-    name: 'HealthPlus',
-    logoUrl: 'startup-logo-3',
-    description: 'A telehealth platform connecting patients with specialist doctors for remote consultations.',
-    website: '#',
+    name: 'Hospital On Cloud',
+    logoUrl: 'startup-logo-hoc',
+    description: 'Pioneering affordable space tourism solutions.',
+    website: 'https://thehospital.cloud/',
     industry: 'HealthTech'
   },
   {
+    id: '2',
+    name: 'Galanto',
+    logoUrl: 'startup-logo-galanto',
+    description: 'Next-gen cybersecurity for IoT devices and smart homes.',
+    website: 'https://www.galantoindia.com/',
+    industry: 'Cybersecurity'
+  },
+  {
+    id: '3',
+    name: 'Ecosense',
+    logoUrl: 'startup-logo-ecosense',
+    description: 'Ecosense is an environmental consultancy that helps businesses reduce their carbon footprint.',
+    website: 'https://ecosense-enviro.com/',
+    industry: 'CleanTech'
+  },
+  {
     id: '4',
-    name: 'FinSecure',
-    logoUrl: 'startup-logo-4',
-    description: 'Blockchain-based platform for secure and transparent financial transactions.',
-    website: '#',
-    industry: 'FinTech'
+    name: 'Dr. Cardio',
+    logoUrl: 'startup-logo-drcardio',
+    description: 'Quantum computing solutions for complex data analysis.',
+    website: 'https://drcardio.in/',
+    industry: 'HealthTech'
   },
   {
     id: '5',
-    name: 'EduVerse',
-    logoUrl: 'startup-logo-5',
-    description: 'Immersive VR and AR learning experiences for K-12 students.',
+    name: 'Dori Handcrafts',
+    logoUrl: 'startup-logo-dori',
+    description: 'Accessible Macramé knowledge and tools for crafting potential in Bohemian and Modern Boho design trends.',
     website: '#',
-    industry: 'EdTech'
+    industry: 'eCommerce'
   },
   {
     id: '6',
-    name: 'Foodify',
-    logoUrl: 'startup-logo-6',
-    description: 'A smart meal planning and grocery delivery service that reduces food waste.',
+    name: 'Furno Foods',
+    logoUrl: 'startup-logo-furno',
+    description: 'Quantum computing solutions for complex data analysis.',
     website: '#',
     industry: 'FoodTech'
   },
+  {
+    id: '7',
+    name: 'Collab Act',
+    logoUrl: 'startup-logo-collabact',
+    description: 'A platform for collaborative learning and action.',
+    website: 'https://learn.collabact.com/',
+    industry: 'EdTech'
+  },
+  {
+    id: '8',
+    name: 'Spaceride Aerotech',
+    logoUrl: 'startup-logo-spaceride',
+    description: 'Developing next-generation aerospace technologies.',
+    website: '#',
+    industry: 'Aerospace'
+  }
 ];
 
 export const resources: Resource[] = [
