@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
+import SocialBar from '@/components/layout/SocialBar';
 
 export const metadata: Metadata = {
   title: 'Vadodara Startup Studio',
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className="font-body antialiased">
         <div className="flex min-h-screen flex-col">
           <Header />
+          <SocialBar />
           <main className="flex-grow">{children}</main>
           <Footer />
         </div>
