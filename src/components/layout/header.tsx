@@ -11,10 +11,6 @@ import { cn } from '@/lib/utils';
 
 const navLinks = [
   { href: '/about', label: 'About Us' },
-  { href: '/startups', label: 'Startups' },
-  { href: '/resources', label: 'Resources' },
-  { href: '/events', label: 'Events' },
-  { href: '/success-stories', label: 'Success Stories' },
 ];
 
 const NavLink = ({ href, label, onClick, target }: { href: string; label: string; onClick?: () => void, target?: string }) => {
@@ -43,15 +39,14 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-card/80 backdrop-blur-sm">
-      <div className="container mx-auto flex h-16 items-center px-4 md:px-6">
-        <Link href="/" className="mr-6 flex items-center gap-2">
+      <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
+        <Link href="/" className="flex items-center gap-2">
           <Zap className="h-6 w-6 text-primary" />
           <span className="text-lg font-bold">Vadodara Startup Studio</span>
         </Link>
-        <nav className="hidden md:flex flex-1 items-center gap-6">
-          {navLinks.map((link) => (
-            <NavLink key={link.href} href={link.href} label={link.label} />
-          ))}
+        
+        <nav className="hidden md:flex flex-1 items-center justify-center gap-6">
+          <NavLink href="/about" label="About Us" />
 
           <div 
             className="relative"
@@ -72,9 +67,9 @@ export default function Header() {
           
           <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank"/>
           <NavLink href="/contact" label="Contact" />
-          <NavLink href="/book-seats" label="Book Seats" />
         </nav>
-        <div className="flex items-center gap-4 md:ml-auto">
+
+        <div className="flex items-center gap-4">
           <div className="md:hidden">
             <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
               <SheetTrigger asChild>
@@ -90,9 +85,7 @@ export default function Header() {
                         <span className="text-lg font-bold">VSS</span>
                     </Link>
                     <nav className="grid gap-4">
-                        {navLinks.map((link) => (
-                            <NavLink key={link.href} href={link.href} label={link.label} onClick={() => setSheetOpen(false)} />
-                        ))}
+                        <NavLink href="/about" label="About Us" onClick={() => setSheetOpen(false)} />
                         <div className="grid gap-2">
                             <p className="font-medium">Programs</p>
                             <Link href="https://www.pierc.org/growthpad-program" target="_blank" rel="noopener noreferrer" className="pl-4 text-sm text-muted-foreground hover:text-primary" onClick={() => setSheetOpen(false)}>
@@ -101,14 +94,13 @@ export default function Header() {
                         </div>
                         <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank" onClick={() => setSheetOpen(false)} />
                         <NavLink href="/contact" label="Contact" onClick={() => setSheetOpen(false)} />
-                        <NavLink href="/book-seats" label="Book Seats" onClick={() => setSheetOpen(false)} />
                     </nav>
                 </div>
               </SheetContent>
             </Sheet>
           </div>
           <Button asChild className="hidden md:flex bg-accent hover:bg-accent/90 text-accent-foreground">
-            <Link href="/contact">Apply Now</Link>
+            <Link href="/book-seats">Book Seats</Link>
           </Button>
         </div>
       </div>
