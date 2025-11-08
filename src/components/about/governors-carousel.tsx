@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const people = [
   {
@@ -53,6 +54,31 @@ const people = [
   },
 ];
 
+function SampleNextArrow(props: any) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={`${className} custom-arrow right-[-40px]`}
+      onClick={onClick}
+    >
+        <ChevronRight size={24} color="black" />
+    </div>
+  );
+}
+
+function SamplePrevArrow(props: any) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+        className={`${className} custom-arrow left-[-40px]`}
+        onClick={onClick}
+    >
+        <ChevronLeft size={24} color="black" />
+    </div>
+  );
+}
+
+
 const GovernorsCarousel = () => {
   const settings = {
     dots: true,
@@ -62,15 +88,25 @@ const GovernorsCarousel = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    arrows: false,
+    arrows: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     appendDots: (dots: React.ReactNode) => (
       <div style={{ bottom: '20px' }}>
         <ul className="m-0 p-0">{dots}</ul>
       </div>
     ),
      customPaging: (i: number) => (
-      <div className="w-2.5 h-2.5 bg-white/50 rounded-full transition-colors duration-300 hover:bg-white" />
+      <div className="w-2.5 h-2.5 bg-muted-foreground/50 rounded-full transition-colors duration-300 hover:bg-foreground" />
     ),
+     responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+            },
+        },
+    ],
   };
 
   const bgImage = PlaceHolderImages.find((p) => p.id === 'governor-bg');
