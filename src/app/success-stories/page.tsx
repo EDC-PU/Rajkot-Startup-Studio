@@ -5,6 +5,23 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { successStories } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Startup Success Stories',
+  description: 'Be inspired by the incredible journeys of startups that began their journey with us at Rajkot Startup Studio. Read about their growth, challenges, and successes.',
+  openGraph: {
+    title: 'Success Stories | Rajkot Startup Studio',
+    description: 'Read inspiring stories from our graduated startups and see what\'s possible.',
+  },
+  twitter: {
+    title: 'Success Stories | Rajkot Startup Studio',
+    description: 'Read inspiring stories from our graduated startups and see what\'s possible.',
+  },
+  alternates: {
+    canonical: '/success-stories',
+  }
+};
 
 export default function SuccessStoriesPage() {
   return (

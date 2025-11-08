@@ -5,6 +5,23 @@ import { Button } from '@/components/ui/button';
 import { events } from '@/lib/data';
 import { Calendar, Clock, MapPin, Video } from 'lucide-react';
 import { format, parseISO } from 'date-fns';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Startup Events',
+  description: 'Join our community of innovators at Rajkot Startup Studio. Find workshops, speaker sessions, pitch nights, and networking opportunities in Gujarat.',
+  openGraph: {
+    title: 'Upcoming Startup Events | Rajkot Startup Studio',
+    description: 'Find workshops, talks, and networking opportunities for entrepreneurs in Rajkot.',
+  },
+  twitter: {
+    title: 'Upcoming Startup Events | Rajkot Startup Studio',
+    description: 'Find workshops, talks, and networking opportunities for entrepreneurs in Rajkot.',
+  },
+  alternates: {
+    canonical: '/events',
+  }
+};
 
 export default function EventsPage() {
   const sortedEvents = events.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());

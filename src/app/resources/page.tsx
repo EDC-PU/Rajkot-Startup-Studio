@@ -9,6 +9,23 @@ import { resources } from '@/lib/data';
 import Link from 'next/link';
 import { FileText, DraftingCompass, Book, Wrench, ArrowUpRight } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Founder Resource Library',
+  description: 'A curated collection of essential resources for startup founders. Access business plan templates, fundraising guides, marketing strategies, and product development tools.',
+  openGraph: {
+    title: 'Resource Library for Founders | Rajkot Startup Studio',
+    description: 'Essential guides, templates, and tools to help you build and grow your startup.',
+  },
+  twitter: {
+    title: 'Resource Library for Founders | Rajkot Startup Studio',
+    description: 'Essential guides, templates, and tools to help you build and grow your startup.',
+  },
+  alternates: {
+    canonical: '/resources',
+  }
+};
 
 const resourceCategories = resources.reduce((acc, resource) => {
   if (!acc[resource.category]) {

@@ -11,6 +11,25 @@ import { Badge } from '@/components/ui/badge';
 import { startups } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Search } from 'lucide-react';
+import type { Metadata } from 'next';
+
+/*
+export const metadata: Metadata = {
+  title: 'Our Startups',
+  description: 'Discover the diverse and innovative companies in the Rajkot Startup Studio ecosystem. Browse our portfolio of startups in HealthTech, CleanTech, EdTech, and more.',
+  openGraph: {
+    title: 'Startup Portfolio | Rajkot Startup Studio',
+    description: 'Explore the innovative companies building their future with us in Rajkot.',
+  },
+  twitter: {
+    title: 'Startup Portfolio | Rajkot Startup Studio',
+    description: 'Explore the innovative companies building their future with us in Rajkot.',
+  },
+  alternates: {
+    canonical: '/startups',
+  }
+};
+*/
 
 export default function StartupsPage() {
   const [searchTerm, setSearchTerm] = useState('');

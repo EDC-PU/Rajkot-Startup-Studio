@@ -6,12 +6,12 @@ const SocialBar = () => {
   return (
     <div className="socialBar">
       <div className="icon">
-        <Link href="https://www.instagram.com/vstartupstudio" target="_blank" rel="noopener noreferrer">
+        <Link href="https://www.instagram.com/rajkot_startupstudio/" target="_blank" rel="noopener noreferrer">
           <Instagram />
         </Link>
       </div>
       <div className="icon">
-        <Link href="https://www.facebook.com/vstartupstudio/" target="_blank" rel="noopener noreferrer">
+        <Link href="https://www.facebook.com/profile.php?id=100090969957626" target="_blank" rel="noopener noreferrer">
           <Facebook />
         </Link>
       </div>

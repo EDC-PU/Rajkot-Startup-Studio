@@ -3,6 +3,23 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Startup Support Programs',
+  description: 'Find the right support for your startup at Rajkot Startup Studio. We offer Incubation, Growth Pad, and Need-Based support programs for entrepreneurs at every stage.',
+  openGraph: {
+    title: 'Startup Support Programs | Rajkot Startup Studio',
+    description: 'Explore our tailored support programs for idea-stage, growth-stage, and established startups.',
+  },
+  twitter: {
+    title: 'Startup Support Programs | Rajkot Startup Studio',
+    description: 'Explore our tailored support programs for idea-stage, growth-stage, and established startups.',
+  },
+  alternates: {
+    canonical: '/startup-support',
+  }
+};
 
 const supportOptions = [
   {

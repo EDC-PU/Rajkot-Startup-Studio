@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useFormState, useFormStatus } from 'react-dom';
@@ -8,6 +9,25 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Lightbulb, Loader2, Wand2 } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import type { Metadata } from 'next';
+
+/*
+export const metadata: Metadata = {
+  title: 'AI Startup Idea Generator',
+  description: 'Spark your next big venture with our AI-powered startup idea generator. Enter an area of interest and get innovative, creative, and potentially lucrative startup ideas instantly.',
+  openGraph: {
+    title: 'AI Startup Idea Generator | Rajkot Startup Studio',
+    description: 'Stuck for an idea? Let our AI generate your next startup concept.',
+  },
+  twitter: {
+    title: 'AI Startup Idea Generator | Rajkot Startup Studio',
+    description: 'Stuck for an idea? Let our AI generate your next startup concept.',
+  },
+  alternates: {
+    canonical: '/idea-generator',
+  }
+};
+*/
 
 const initialState: IdeaGeneratorState = {};
 

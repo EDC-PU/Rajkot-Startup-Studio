@@ -10,6 +10,25 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent } from '@/components/ui/card';
 import { Mail, MapPin, Loader2, Send } from 'lucide-react';
+import type { Metadata } from 'next';
+
+/*
+export const metadata: Metadata = {
+  title: 'Contact Us',
+  description: 'Get in touch with Rajkot Startup Studio. Ask questions, discuss project ideas, or learn more about our incubation programs. We are located at Parul University, Gujarat.',
+  openGraph: {
+    title: 'Contact Rajkot Startup Studio',
+    description: 'Have a question or a project idea? We\'d love to hear from you.',
+  },
+  twitter: {
+    title: 'Contact Rajkot Startup Studio',
+    description: 'Have a question or a project idea? We\'d love to hear from you.',
+  },
+  alternates: {
+    canonical: '/contact',
+  }
+};
+*/
 
 const initialState = { message: '', error: '' };
 

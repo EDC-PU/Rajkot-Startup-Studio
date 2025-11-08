@@ -1,5 +1,23 @@
 
 import { BookSeatsForm } from './form';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Book Co-working Seats',
+  description: 'Book your dedicated desk, private cabin, or conference room at Rajkot Startup Studio. Flexible plans for entrepreneurs and startups in Rajkot.',
+  openGraph: {
+    title: 'Book Co-working Seats | Rajkot Startup Studio',
+    description: 'Reserve your ideal workspace in the heart of Rajkot\'s innovation hub.',
+  },
+  twitter: {
+    title: 'Book Co-working Seats | Rajkot Startup Studio',
+    description: 'Reserve your ideal workspace in the heart of Rajkot\'s innovation hub.',
+  },
+  alternates: {
+    canonical: '/book-seats',
+  }
+};
+
 
 export default function BookSeatsPage() {
   return (
