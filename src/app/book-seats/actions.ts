@@ -2,6 +2,7 @@
 'use server';
 
 import { z } from 'zod';
+import { sendEmail } from '@/lib/mailer';
 
 const BookingSchema = z.object({
   typesOfIncorporation: z.string().min(1, 'Type of Incorporation is required.'),
@@ -43,19 +44,26 @@ export async function submitBookingForm(prevState: BookingState, formData: FormD
     };
   }
 
-  try {
-    const response = await fetch("https://vssserver.onrender.com/api/send_email", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ formData: validatedFields.data }),
-    });
+  const data = validatedFields.data;
 
-    if (response.ok) {
-      return { message: "Form submitted successfully!" };
-    } else {
-      const errorData = await response.text();
-      return { error: `Error submitting form: ${errorData}` };
-    }
+  const emailHtml = `
+    <h1>New Co-working Seat Booking</h1>
+    <p>A new booking has been submitted. Here are the details:</p>
+    <ul>
+        ${Object.entries(data)
+          .map(([key, value]) => `<li><strong>${key.replace(/([A-Z])/g, ' $1')}:</strong> ${value || 'N/A'}</li>`)
+          .join('')}
+    </ul>
+  `;
+
+  try {
+    await sendEmail({
+      to: 'rathipranav07@gmail.com',
+      subject: 'New Co-working Seat Booking Request',
+      text: JSON.stringify(data, null, 2),
+      html: emailHtml,
+    });
+    return { message: "Form submitted successfully!" };
   } catch (error) {
     return { error: `An unexpected error occurred: ${error instanceof Error ? error.message : 'Unknown error'}` };
   }
