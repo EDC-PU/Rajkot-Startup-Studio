@@ -27,7 +27,7 @@ export default function StartupsPage() {
           <div className="text-center max-w-2xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Our Startups</h1>
             <p className="mt-4 text-lg text-muted-foreground">
-              Discover the diverse and innovative companies in the Vadodara Startup Studio ecosystem.
+              Discover the diverse and innovative companies in the Rajkot Startup Studio ecosystem.
             </p>
           </div>
 
