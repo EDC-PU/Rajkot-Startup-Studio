@@ -78,6 +78,15 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
+            <Link href="https://pierc.org" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+              <Image 
+                  src="https://vadodarastartupstudio.com/PIERC.svg"
+                  alt="PIERC Logo"
+                  width={100}
+                  height={40}
+                  className='object-contain'
+              />
+            </Link>
           <div className="md:hidden">
             <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
               <SheetTrigger asChild>
@@ -111,14 +120,22 @@ export default function Header() {
                         <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank" onClick={() => setSheetOpen(false)} />
                         <NavLink href="https://www.pierc.org/Newsletter" label="Newsletter" target="_blank" onClick={() => setSheetOpen(false)} />
                         <NavLink href="/contact" label="Contact" onClick={() => setSheetOpen(false)} />
+                         <div className="mt-4">
+                            <Link href="https://pierc.org" target="_blank" rel="noopener noreferrer">
+                                <Image 
+                                    src="https://vadodarastartupstudio.com/PIERC.svg"
+                                    alt="PIERC Logo"
+                                    width={100}
+                                    height={40}
+                                    className='object-contain'
+                                />
+                            </Link>
+                        </div>
                     </nav>
                 </div>
               </SheetContent>
             </Sheet>
           </div>
-          <Button asChild className="hidden md:flex">
-            <Link href="/book-seats">Book Seats</Link>
-          </Button>
         </div>
       </div>
     </header>

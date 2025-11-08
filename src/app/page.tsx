@@ -51,6 +51,9 @@ export default function Home() {
               <Button asChild size="lg">
                 <Link href="/startup-support">Apply For Startup Support</Link>
               </Button>
+              <Button asChild size="lg" variant="outline">
+                <Link href="/book-seats">Book Seats</Link>
+              </Button>
             </div>
           </div>
         </div>
