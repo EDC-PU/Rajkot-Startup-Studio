@@ -25,7 +25,7 @@ const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
 export default function Home() {
   return (
     <div className="flex flex-col bg-background text-foreground">
-      <section className="relative w-full py-32 md:py-48 lg:py-60 flex items-center justify-center text-center bg-card">
+      <section className="relative w-full py-20 md:py-32 lg:py-40 flex items-center justify-center text-center bg-card">
         {heroImage && (
             <Image
                 src={heroImage.imageUrl}

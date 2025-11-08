@@ -78,12 +78,12 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-            <Link href="https://pierc.org" target="_blank" rel="noopener noreferrer" className="hidden md:block">
+            <Link href="https://pierc.org" target="_blank" rel="noopener noreferrer" className="hidden lg:block">
               <Image 
                   src="https://vadodarastartupstudio.com/PIERC.svg"
                   alt="PIERC Logo"
-                  width={300}
-                  height={120}
+                  width={200}
+                  height={80}
                   className='object-contain'
               />
             </Link>

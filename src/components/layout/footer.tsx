@@ -14,9 +14,9 @@ export default function Footer() {
   return (
     <footer className="bg-card border-t">
       <div className="container mx-auto px-4 py-12 md:px-6">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5">
           
-          <div className="md:col-span-1 lg:col-span-1">
+          <div className="md:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Zap className="h-8 w-8 text-primary" />
               <span className="text-lg font-bold">Rajkot Startup Studio</span>
