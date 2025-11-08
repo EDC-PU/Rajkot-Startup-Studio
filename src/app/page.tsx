@@ -66,7 +66,7 @@ export default function Home() {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold">Our Story</h2>
               <p className="text-muted-foreground">
-                Vadodara Startup Studio, established by PIERC, Parul University in 2021, offers resources, guidance, and an acceleration program to aspiring entrepreneurs. With state-of-the-art infrastructure and mentorship, the studio promotes collaboration, innovation, and inclusivity, serving as the management center for other startup studios in the state.
+                Rajkot Startup Studio, established by PIERC, Parul University in 2023, offers resources, guidance, and an acceleration program to aspiring entrepreneurs. With state-of-the-art infrastructure and mentorship, the studio promotes collaboration, innovation, and inclusivity, serving as the management center for other startup studios in the state.
               </p>
                <h3 className="text-2xl font-bold pt-4">PU Startup Studios</h3>
                <p className="text-muted-foreground">
