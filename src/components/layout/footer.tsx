@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="md:col-span-1 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Zap className="h-8 w-8 text-primary" />
-              <span className="text-lg font-bold">Vadodara Startup Studio</span>
+              <span className="text-lg font-bold">Rajkot Startup Studio</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               A studio of Parul Innovation &amp; Entrepreneurship Research Center.
@@ -45,9 +45,9 @@ export default function Footer() {
             <ul className="space-y-2">
               <FooterLink href="https://www.pierc.org">PIERC University Campus</FooterLink>
               <FooterLink href="/about">Fablab</FooterLink>
-              <FooterLink href="/">Vadodara Startup Studio</FooterLink>
+              <FooterLink href="https://www.vadodarastarupstudio.com">Vadodara Startup Studio</FooterLink>
               <FooterLink href="/">Ahmedabad Startup Studio</FooterLink>
-              <FooterLink href="/">Surat Startup Studio</FooterLink>
+              <FooterLink href="https://www.suratstartupstudio.com">Surat Startup Studio</FooterLink>
               <FooterLink href="/">Rajkot Startup Studio</FooterLink>
             </ul>
           </div>
@@ -72,31 +72,30 @@ export default function Footer() {
             <a href="https://maps.app.goo.gl/7r2eDgjYcwPR4uJq9" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                 <h4 className="font-semibold mb-2 text-foreground">Vadodara Startup Studio</h4>
                 <p className="text-sm text-muted-foreground">
-                    Above Diva Hospital, Near Amitnagar Circle, VIP Rd,<br />
-                    Karelibagh,Vadodara, Gujarat, India- 390022
+                409, The Millenium, Circle, 150 Feet Ring Rd, nr. Nana Mava, Padmi Society, Mavdi, Rajkot, Gujarat 360005
                 </p>
             </a>
             <div className="mt-4">
               <h4 className="font-semibold text-foreground">Get in Touch:</h4>
               <div className="text-sm text-muted-foreground">
-                  <a href="mailto:vss@paruluniversity.ac.in" className="hover:text-primary transition-colors block">
-                      Email: vss@paruluniversity.ac.in
+                  <a href="mailto:rajkotstartupstudio@paruluniversity.ac.in" className="hover:text-primary transition-colors block">
+                      Email: rajkotstartupstudio@paruluniversity.ac.in
                   </a>
-                  <a href="tel:+916358915335" className="hover:text-primary transition-colors block">
-                      Phone: +91 6358915335
+                  <a href="tel:+919016229329" className="hover:text-primary transition-colors block">
+                      Phone: +91 90162 29329
                   </a>
               </div>
             </div>
             <div className="mt-4 flex space-x-4">
-                <a href="https://www.instagram.com/vstartupstudio" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://www.instagram.com/rajkot_startupstudio/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <Instagram className="h-5 w-5" />
                   <span className="sr-only">Instagram</span>
                 </a>
-                <a href="https://www.facebook.com/vstartupstudio/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://www.facebook.com/profile.php?id=100090969957626" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <Facebook className="h-5 w-5" />
                   <span className="sr-only">Facebook</span>
                 </a>
-                <a href="https://in.linkedin.com/in/vstartupstudio" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://www.linkedin.com/company/rajkot-startup-studio-pierc" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
                 </a>
@@ -104,7 +103,7 @@ export default function Footer() {
           </div>
         </div>
          <p className="text-sm text-muted-foreground text-center mt-8 border-t pt-6">
-            &copy; {new Date().getFullYear()} Vadodara Startup Studio. All rights reserved.
+            &copy; {new Date().getFullYear()} Rajkot Startup Studio. All rights reserved by Parul University.
           </p>
       </div>
     </footer>
