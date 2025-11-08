@@ -44,29 +44,6 @@ const spaces = [
         "Common restroom facilities"
       ] 
     },
-    { 
-      id: "conference-rooms",
-      title: "Conference Rooms", 
-      features: [
-        "Whiteboards for brainstorming sessions.",
-        "Projector screen.",
-        "High-speed Wi-Fi",
-        "Wireless Microphone and speaker",
-        "Fully Air conditioning"
-      ] 
-    },
-    { 
-      id: "seminar-hall",
-      title: "Seminar Hall", 
-      features: [
-          "Comfortable seating for a large audience",
-          "Air conditioning.",
-          "Wireless Microphone and speaker .",
-          "Wi-Fi and LAN access",
-          "Projector screen.",
-          "Soundproof & Echo Proof seminar hall"
-      ] 
-    }
   ];
 
 export default function AvailableSpaces() {
