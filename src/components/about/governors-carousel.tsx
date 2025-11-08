@@ -94,8 +94,8 @@ const GovernorsCarousel = () => {
                                     <Image
                                         src={personImage.imageUrl}
                                         alt={person.name}
-                                        width={220}
-                                        height={220}
+                                        width={224}
+                                        height={224}
                                         className="rounded-full object-cover border-4 border-background shadow-lg"
                                         data-ai-hint={personImage.imageHint}
                                     />
