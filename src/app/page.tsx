@@ -18,7 +18,6 @@ import JoinNetwork from '@/components/home/join-network';
 import Features from '@/components/home/features';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import GovernorsCarousel from '@/components/about/governors-carousel';
-import InstagramFeed from '@/components/home/instagram-feed';
 
 
 const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
@@ -151,8 +150,6 @@ export default function Home() {
         </div>
       </section>
       
-      <InstagramFeed />
-
       <section id="contact" className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Join Our Community</h2>
