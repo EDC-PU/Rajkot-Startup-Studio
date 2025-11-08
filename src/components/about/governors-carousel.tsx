@@ -90,13 +90,13 @@ const GovernorsCarousel = () => {
                         <div key={person.name} className="px-4">
                             <div className="flex flex-col md:flex-row items-center gap-8">
                                 {personImage && (
-                                    <div className="flex-shrink-0 w-48 h-48 md:w-56 md:h-56 relative">
+                                    <div className="relative mx-auto h-48 w-48 flex-shrink-0 md:h-56 md:w-56">
                                     <Image
                                         src={personImage.imageUrl}
                                         alt={person.name}
-                                        width={224}
-                                        height={224}
-                                        className="rounded-full object-cover border-4 border-background shadow-lg"
+                                        fill
+                                        className="rounded-full border-4 border-background object-cover shadow-lg"
+                                        sizes="(max-width: 768px) 192px, 224px"
                                         data-ai-hint={personImage.imageHint}
                                     />
                                     </div>
