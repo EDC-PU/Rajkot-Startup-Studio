@@ -9,7 +9,7 @@ export default function BookSeatsPage() {
           <div className="text-center max-w-2xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Book Your Seat</h1>
             <p className="mt-4 text-lg text-muted-foreground">
-              Fill out the form below to book your co-working space at Vadodara Startup Studio.
+              Fill out the form below to book your co-working space at Rajkot Startup Studio.
             </p>
           </div>
 
