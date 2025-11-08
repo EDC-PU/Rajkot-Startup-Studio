@@ -51,7 +51,7 @@
     {
       "id": "startup-logo-spaceride",
       "description": "Logo for Spaceride Aerotech",
-      "imageUrl": "https://images.unsplash.com/photo-1622465911368-72162f8da3e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMGxvZ298ZW58MHx8fHwxNzYyMzM3Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1622465911368-72162f8da3e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMGxvZ298ZW58MHx8fHwxNzYyMzM3Njg3fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "space logo"
     },
     {
@@ -63,7 +63,7 @@
     {
       "id": "success-story-2",
       "description": "Product shot for GreenScape",
-      "imageUrl": "https://images.unsplash.com/photo-1697309006580-cda397ee09c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3VzdGFpbmFibGUlMjBwcm9kdWN0fGVufDB8fHx8MTc2MjM1MzM5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1697309006580-cda397ee09c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3VzdGFpbmFibGUlMjBwcm9kdWN0fGVufDB8fHx8MTc2MjM1MzM5M3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sustainable product"
     },
     {
@@ -75,7 +75,7 @@
     {
       "id": "dedicated-desks-ac",
       "description": "A dedicated desk in a co-working space",
-      "imageUrl": "https://images.unsplash.com/photo-1650521986932-86bbeded3fc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb3dvcmtpbmclMjBkZXNrfGVufDB8fHx8MTc2MjM1NDQ0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1650521986932-86bbeded3fc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb3dvcmtpbmclMjBkZXNrfGVufDB8fHx8MTc2MjM1NDQ0MXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "coworking desk"
     },
     {
@@ -143,6 +143,48 @@
       "description": "Map representing the PIERC Startup Network",
       "imageUrl": "https://images.unsplash.com/photo-1596204477969-a1b734b41a7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b3JsZCUyMG1hcCUyMGlubm92YXRpb258ZW58MHx8fHwxNzYyMzc5ODQzfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "world map"
+    },
+    {
+      "id": "idea-generator-bg",
+      "description": "AI generated idea lightbulb",
+      "imageUrl": "https://images.unsplash.com/photo-1589437192298-993739433434?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhaSUyMGdlbmVyYXRlZCUyMGlkZWF8ZW58MHx8fHwxNzYzOTMwOTQwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "ai idea"
+    },
+    {
+      "id": "insta-1",
+      "description": "A startup team collaborating in a modern office.",
+      "imageUrl": "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdGFydHVwJTIwb2ZmaWNlfGVufDB8fHx8MTc2MjUyMDk1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "startup office"
+    },
+    {
+      "id": "insta-2",
+      "description": "Close-up of a presenter at a tech conference.",
+      "imageUrl": "https://images.unsplash.com/photo-1600320261634-78edd477fa1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGVjaCUyMGNvbmZlcmVuY2V8ZW58MHx8fHwxNzYyNTA3NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech conference"
+    },
+    {
+      "id": "insta-3",
+      "description": "A person writing ideas on a whiteboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1759884247146-b6cba3d92341?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3aGl0ZWJvYXJkJTIwaWRlYXN8ZW58MHx8fHwxNzYyNTg1NTU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "whiteboard ideas"
+    },
+    {
+      "id": "insta-4",
+      "description": "Networking event with people talking.",
+      "imageUrl": "https://images.unsplash.com/photo-1560439514-4e9645039924?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxuZXR3b3JraW5nJTIwZXZlbnR8ZW58MHx8fHwxNzYyNTgzOTAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "networking event"
+    },
+    {
+      "id": "insta-5",
+      "description": "A modern office space with laptops and coffee.",
+      "imageUrl": "https://images.unsplash.com/photo-1631193816258-28b44b21e78b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvZmZpY2UlMjBzcGFjZXxlbnwwfHx8fDE3NjI1MzMxMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office space"
+    },
+    {
+      "id": "insta-6",
+      "description": "Celebrating a successful product launch.",
+      "imageUrl": "https://images.unsplash.com/photo-1631237535233-af19ef69f54d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvZHVjdCUyMGxhdW5jaHxlbnwwfHx8fDE3NjI1NTE3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "product launch"
     }
   ]
 }
