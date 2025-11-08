@@ -60,12 +60,6 @@ export default function Home() {
         </div>
       </section>
 
-      <JoinNetwork />
-      
-      <Stats />
-
-      <Features />
-
       <section className="py-16 md:py-24 bg-card">
         <div className="container mx-auto px-4 md:px-6">
           <div className="space-y-6">
@@ -80,8 +74,12 @@ export default function Home() {
         </div>
       </section>
 
-      <GovernorsCarousel />
-      
+      <Stats />
+
+      <Features />
+
+      <JoinNetwork />
+
       <AvailableSpaces />
 
       <section id="featured-startups" className="py-16 md:py-24 bg-card">
@@ -140,6 +138,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      <GovernorsCarousel />
       
       <section id="contact" className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4 md:px-6 text-center">
