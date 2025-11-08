@@ -42,8 +42,11 @@ export default function Home() {
                 <Rocket className="h-10 w-10 text-primary" />
               </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
-              Empowering Innovators: Crafting, Launching, and Scaling Startups with Expert Guidance and Resources
+              Rajkot Startup Studio
             </h1>
+            <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
+                Empowering Innovators: Crafting, Launching, and Scaling Startups with Expert Guidance and Resources
+            </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg">
                 <Link href="/book-seats">Book a Space</Link>
