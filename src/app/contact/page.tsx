@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useActionState, useFormStatus } from 'react-dom';
@@ -76,7 +77,7 @@ export default function ContactPage() {
 
   return (
     <div className="bg-background">
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 animate-in fade-in slide-in-from-bottom-8 duration-700">
         <div className="container mx-auto px-4 md:px-6">
             <div className="text-center max-w-2xl mx-auto">
                 <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Get In Touch</h1>

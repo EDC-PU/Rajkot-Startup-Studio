@@ -37,7 +37,7 @@ export default function Home() {
                 priority
             />
         )}
-        <div className="container mx-auto px-4 md:px-6 relative z-10">
+        <div className="container mx-auto px-4 md:px-6 relative z-10 animate-in fade-in slide-in-from-bottom-8 duration-1000">
           <div className="max-w-4xl mx-auto">
              <div className="mx-auto w-fit mb-4 bg-primary/10 p-4 rounded-full">
                 <Rocket className="h-10 w-10 text-primary" />
@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-card">
+      <section className="py-16 md:py-24 bg-card animate-in fade-in-50 slide-in-from-bottom-10 duration-500">
         <div className="container mx-auto px-4 md:px-6">
           <div className="space-y-6">
             <div className='text-center'>
@@ -82,7 +82,7 @@ export default function Home() {
 
       <AvailableSpaces />
 
-      <section id="featured-startups" className="py-16 md:py-24 bg-card">
+      <section id="featured-startups" className="py-16 md:py-24 bg-card animate-in fade-in-50 slide-in-from-bottom-10 duration-500">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold">Featured Startups</h2>
@@ -141,7 +141,7 @@ export default function Home() {
       
       <GovernorsCarousel />
       
-      <section id="contact" className="py-16 md:py-24 bg-background">
+      <section id="contact" className="py-16 md:py-24 bg-background animate-in fade-in-50 slide-in-from-bottom-10 duration-500">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Join Our Community</h2>
           <p className="mt-4 text-muted-foreground max-w-xl mx-auto">

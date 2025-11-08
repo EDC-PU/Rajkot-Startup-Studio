@@ -1,3 +1,4 @@
+
 'use client';
 
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -70,7 +71,7 @@ const spaces = [
 
 export default function AvailableSpaces() {
   return (
-    <section id="available-spaces" className="py-16 md:py-24 bg-background">
+    <section id="available-spaces" className="py-16 md:py-24 bg-background animate-in fade-in-50 slide-in-from-bottom-10 duration-500">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">Available Spaces</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-24 md:gap-y-32">

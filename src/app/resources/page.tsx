@@ -1,3 +1,4 @@
+
 import {
   Accordion,
   AccordionContent,
@@ -27,7 +28,7 @@ const typeIcons = {
 export default function ResourcesPage() {
   return (
     <div className="bg-background">
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 animate-in fade-in slide-in-from-bottom-8 duration-700">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-2xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Resource Library</h1>
@@ -39,7 +40,7 @@ export default function ResourcesPage() {
           <div className="mt-12 max-w-3xl mx-auto">
             <Accordion type="single" collapsible className="w-full" defaultValue={Object.keys(resourceCategories)[0]}>
               {Object.entries(resourceCategories).map(([category, items]) => (
-                <AccordionItem key={category} value={category}>
+                <AccordionItem key={category} value={category} className="animate-in fade-in-50 slide-in-from-bottom-5 duration-500">
                   <AccordionTrigger className="text-xl font-semibold hover:no-underline">
                     {category}
                   </AccordionTrigger>

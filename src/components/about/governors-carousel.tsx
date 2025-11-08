@@ -77,7 +77,7 @@ const GovernorsCarousel = () => {
 
   return (
     <div
-      className="relative w-full py-16 text-foreground overflow-hidden bg-cover bg-center bg-card"
+      className="relative w-full py-16 text-foreground overflow-hidden bg-cover bg-center bg-card animate-in fade-in-50 slide-in-from-bottom-10 duration-500"
     >
         <div className="container mx-auto px-4 md:px-6 relative z-10">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
@@ -91,14 +91,16 @@ const GovernorsCarousel = () => {
                             <div className="flex flex-col md:flex-row items-center gap-8">
                                 {personImage && (
                                     <div className="relative mx-auto h-48 w-48 flex-shrink-0 md:h-56 md:w-56">
-                                    <Image
-                                        src={personImage.imageUrl}
-                                        alt={person.name}
-                                        fill
-                                        className="rounded-full border-4 border-background object-cover shadow-lg"
-                                        sizes="(max-width: 768px) 192px, 224px"
-                                        data-ai-hint={personImage.imageHint}
-                                    />
+                                      <div className="relative h-48 w-48 md:h-56 md:w-56 overflow-hidden rounded-full border-4 border-background shadow-lg">
+                                        <Image
+                                            src={personImage.imageUrl}
+                                            alt={person.name}
+                                            fill
+                                            className="object-cover"
+                                            sizes="(max-width: 768px) 192px, 224px"
+                                            data-ai-hint={personImage.imageHint}
+                                        />
+                                      </div>
                                     </div>
                                 )}
                                 <div className="text-center md:text-left">

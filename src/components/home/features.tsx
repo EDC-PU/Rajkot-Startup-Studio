@@ -34,7 +34,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="py-16 md:py-24 bg-background">
+    <section id="features" className="py-16 md:py-24 bg-background animate-in fade-in-50 slide-in-from-bottom-10 duration-500">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">Everything You Need to Succeed</h2>
