@@ -1,6 +1,9 @@
+
 'use client';
 
-import { useActionState, useFormStatus, useEffect, useRef } from 'react';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
+import { useEffect, useRef } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { submitContactForm } from './actions';
 import { Button } from '@/components/ui/button';
@@ -142,7 +145,10 @@ export default function ContactPage() {
                                     <Input id="name" name="name" placeholder="Your Name" required />
                                     <Input id="email" name="email" type="email" placeholder="Your Email" required />
                                 </div>
-                                <Input id="company" name="company" placeholder="Your Company (Optional)" />
+                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <Input id="phone" name="phone" type="tel" placeholder="Your Phone (Optional)" />
+                                    <Input id="company" name="company" placeholder="Your Company (Optional)" />
+                                </div>
                                 <Textarea
                                 id="message"
                                 name="message"

@@ -7,6 +7,7 @@ import { sendEmail } from '@/lib/mailer';
 const ContactSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
   email: z.string().email({ message: 'Please enter a valid email address.' }),
+  phone: z.string().optional(),
   company: z.string().optional(),
   message: z.string().min(10, { message: 'Message must be at least 10 characters.' }),
 });
@@ -15,6 +16,7 @@ export async function submitContactForm(prevState: any, formData: FormData) {
   const validatedFields = ContactSchema.safeParse({
     name: formData.get('name'),
     email: formData.get('email'),
+    phone: formData.get('phone'),
     company: formData.get('company'),
     message: formData.get('message'),
   });
@@ -35,6 +37,7 @@ export async function submitContactForm(prevState: any, formData: FormData) {
     <ul>
         <li><strong>Name:</strong> ${data.name}</li>
         <li><strong>Email:</strong> ${data.email}</li>
+        <li><strong>Phone:</strong> ${data.phone || 'N/A'}</li>
         <li><strong>Company:</strong> ${data.company || 'N/A'}</li>
         <li><strong>Message:</strong></li>
     </ul>
@@ -45,7 +48,7 @@ export async function submitContactForm(prevState: any, formData: FormData) {
     await sendEmail({
         to: 'rathipranav07@gmail.com',
         subject: 'New Message from Rajkot Startup Studio Contact Form',
-        text: `Name: ${data.name}\nEmail: ${data.email}\nCompany: ${data.company || 'N/A'}\nMessage: ${data.message}`,
+        text: `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone || 'N/A'}\nCompany: ${data.company || 'N/A'}\nMessage: ${data.message}`,
         html: emailHtml,
     });
     return { message: 'Thank you for your message! We will get back to you soon.' };
