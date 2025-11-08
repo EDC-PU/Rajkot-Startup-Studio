@@ -92,7 +92,7 @@ const GovernorsCarousel = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     appendDots: (dots: React.ReactNode) => (
-      <div style={{ bottom: '20px' }}>
+      <div style={{ position: 'relative', bottom: '-20px' }}>
         <ul className="m-0 p-0">{dots}</ul>
       </div>
     ),
