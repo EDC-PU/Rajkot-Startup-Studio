@@ -82,8 +82,8 @@ export default function Header() {
               <Image 
                   src="https://vadodarastartupstudio.com/PIERC.svg"
                   alt="PIERC Logo"
-                  width={100}
-                  height={40}
+                  width={300}
+                  height={120}
                   className='object-contain'
               />
             </Link>
