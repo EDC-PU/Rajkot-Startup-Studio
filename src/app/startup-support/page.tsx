@@ -31,7 +31,7 @@ const supportOptions = [
 export default function StartupSupportPage() {
   return (
     <div className="bg-background">
-      <section className="py-16 md:py-24">
+      <section className="py-12 md:py-16">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-2xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight">What type of support do you need?</h1>
