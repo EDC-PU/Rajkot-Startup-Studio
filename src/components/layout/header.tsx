@@ -54,6 +54,11 @@ export default function Header() {
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem asChild>
+                <Link href="https://www.pierc.org/incubation-program" target="_blank" rel="noopener noreferrer">
+                    Incubation Program
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
                 <Link href="https://www.pierc.org/growthpad-program" target="_blank" rel="noopener noreferrer">
                     Growth Pad Program
                 </Link>
@@ -84,6 +89,9 @@ export default function Header() {
                         
                         <div className="grid gap-2">
                             <p className="font-medium">Programs</p>
+                            <Link href="https://www.pierc.org/incubation-program" target="_blank" rel="noopener noreferrer" className="pl-4 text-sm text-muted-foreground hover:text-primary" onClick={() => setSheetOpen(false)}>
+                                Incubation Program
+                            </Link>
                             <Link href="https://www.pierc.org/growthpad-program" target="_blank" rel="noopener noreferrer" className="pl-4 text-sm text-muted-foreground hover:text-primary" onClick={() => setSheetOpen(false)}>
                                 Growth Pad Program
                             </Link>
