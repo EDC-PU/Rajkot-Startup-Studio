@@ -49,10 +49,7 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg">
-                <Link href="/book-seats">Book a Space</Link>
-              </Button>
-              <Button asChild size="lg" variant="outline">
-                <Link href="/contact">Contact Us</Link>
+                <Link href="/startup-support">Apply For Startup Support</Link>
               </Button>
             </div>
           </div>
