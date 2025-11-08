@@ -67,6 +67,7 @@ export default function Header() {
           </DropdownMenu>
           
           <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank"/>
+          <NavLink href="https://www.pierc.org/Newsletter" label="Newsletter" target="_blank"/>
           <NavLink href="/contact" label="Contact" />
         </nav>
 
@@ -97,6 +98,7 @@ export default function Header() {
                             </Link>
                         </div>
                         <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank" onClick={() => setSheetOpen(false)} />
+                        <NavLink href="https://www.pierc.org/Newsletter" label="Newsletter" target="_blank" onClick={() => setSheetOpen(false)} />
                         <NavLink href="/contact" label="Contact" onClick={() => setSheetOpen(false)} />
                     </nav>
                 </div>
