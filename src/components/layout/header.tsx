@@ -2,11 +2,12 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Zap, ChevronDown } from 'lucide-react';
+import { Menu, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import {
   DropdownMenu,
@@ -42,8 +43,13 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-card/80 backdrop-blur-sm">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
-          <Zap className="h-6 w-6 text-primary" />
-          <span className="text-lg font-bold">Rajkot Startup Studio</span>
+          <Image 
+            src="https://firebasestorage.googleapis.com/v0/b/edc-pierc.appspot.com/o/RSS%20BLACK.png?alt=media&token=48d4da9f-1543-4c71-90c8-18fea38211a1"
+            alt="Rajkot Startup Studio Logo"
+            width={180}
+            height={40}
+            className='object-contain'
+          />
         </Link>
         
         <nav className="hidden md:flex flex-1 items-center justify-center gap-6">
@@ -83,8 +89,13 @@ export default function Header() {
               <SheetContent side="left">
                 <div className="flex flex-col gap-6 p-6">
                     <Link href="/" className="mr-6 flex items-center gap-2" onClick={() => setSheetOpen(false)}>
-                        <Zap className="h-6 w-6 text-primary" />
-                        <span className="text-lg font-bold">VSS</span>
+                        <Image 
+                            src="https://firebasestorage.googleapis.com/v0/b/edc-pierc.appspot.com/o/RSS%20BLACK.png?alt=media&token=48d4da9f-1543-4c71-90c8-18fea38211a1"
+                            alt="Rajkot Startup Studio Logo"
+                            width={150}
+                            height={33}
+                            className='object-contain'
+                        />
                     </Link>
                     <nav className="grid gap-4">
                         
