@@ -16,12 +16,12 @@ const SocialBar = () => {
         </Link>
       </div>
       <div className="icon">
-        <Link href="https://in.linkedin.com/in/vstartupstudio" target="_blank" rel="noopener noreferrer">
+        <Link href="https://www.linkedin.com/company/rajkot-startup-studio-pierc" target="_blank" rel="noopener noreferrer">
           <Linkedin />
         </Link>
       </div>
       <div className="icon">
-        <Link href="mailto:vss@paruluniversity.ac.in" target="_blank" rel="noopener noreferrer">
+        <Link href="mailto:rajkotstartupstudio@paruluniversity.ac.in" target="_blank" rel="noopener noreferrer">
           <Mail />
         </Link>
       </div>
