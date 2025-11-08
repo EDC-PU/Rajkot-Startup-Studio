@@ -65,6 +65,6 @@ export async function submitBookingForm(prevState: BookingState, formData: FormD
     });
     return { message: "Form submitted successfully!" };
   } catch (error) {
-    return { error: `An unexpected error occurred: ${error instanceof Error ? error.message : 'Unknown error'}` };
+    return { error: `There was a problem sending your message. Please try again later.` };
   }
 }
