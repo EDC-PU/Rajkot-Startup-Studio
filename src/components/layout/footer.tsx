@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import { Zap, Instagram, Facebook, Linkedin } from 'lucide-react';
+import Image from 'next/image';
 
 const FooterLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <li>
@@ -18,8 +19,13 @@ export default function Footer() {
           
           <div className="md:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <Zap className="h-8 w-8 text-primary" />
-              <span className="text-lg font-bold">Rajkot Startup Studio</span>
+               <Image 
+                src="https://firebasestorage.googleapis.com/v0/b/edc-pierc.appspot.com/o/RSS%20BLACK.png?alt=media&token=48d4da9f-1543-4c71-90c8-18fea38211a1"
+                alt="Rajkot Startup Studio Logo"
+                width={180}
+                height={40}
+                className='object-contain'
+              />
             </Link>
             <p className="text-sm text-muted-foreground">
               A studio of Parul Innovation &amp; Entrepreneurship Research Center.

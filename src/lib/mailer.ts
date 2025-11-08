@@ -11,17 +11,24 @@ export interface MailOptions {
 }
 
 export async function sendEmail(options: MailOptions) {
+  const { EMAIL_USER, EMAIL_PASS } = process.env;
+
+  if (!EMAIL_USER || !EMAIL_PASS) {
+    console.error('Email credentials (EMAIL_USER, EMAIL_PASS) are not set in environment variables.');
+    throw new Error('Email service is not configured.');
+  }
+
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
+      user: EMAIL_USER,
+      pass: EMAIL_PASS,
     },
   });
 
   try {
     await transporter.sendMail({
-      from: process.env.EMAIL_USER,
+      from: EMAIL_USER,
       ...options,
     });
     console.log('Email sent successfully');
