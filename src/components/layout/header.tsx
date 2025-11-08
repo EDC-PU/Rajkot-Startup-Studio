@@ -43,7 +43,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
           <Zap className="h-6 w-6 text-primary" />
-          <span className="text-lg font-bold">Vadodara Startup Studio</span>
+          <span className="text-lg font-bold">Rajkot Startup Studio</span>
         </Link>
         
         <nav className="hidden md:flex flex-1 items-center justify-center gap-6">
