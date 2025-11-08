@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     default: 'Rajkot Startup Studio | Innovation & Entrepreneurship in Gujarat',
     template: '%s | Rajkot Startup Studio',
   },
-  description: 'Rajkot Startup Studio, a center by PIERC ,Parul University, empowers innovators and entrepreneurs in Gujarat. We offer incubation, mentorship, co-working spaces, and resources to build, launch, and scale successful startups.',
+  description: 'Rajkot Startup Studio, a center by PIERC, Parul University, empowers innovators and entrepreneurs in Gujarat. We offer incubation, mentorship, co-working spaces, and resources to build, launch, and scale successful startups.',
   keywords: ['startup studio', 'Rajkot', 'Gujarat', 'entrepreneurship', 'incubation center', 'co-working space', 'PIERC', 'Parul University', 'startup funding', 'mentorship'],
   openGraph: {
-    title: 'Rajkot Startup Studio | Innovation & Entrepreneurship in Gujarat',
+    title: 'Rajkot Startup Studio | Startup Incubator in Gujarat',
     description: 'Empowering innovators and entrepreneurs in Rajkot with incubation, mentorship, and resources.',
     url: 'https://rajkotstartupstudio.com',
     siteName: 'Rajkot Startup Studio',
