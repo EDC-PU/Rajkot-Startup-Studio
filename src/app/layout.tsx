@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: 'Rajkot Startup Studio | Innovation & Entrepreneurship in Gujarat',
     template: '%s | Rajkot Startup Studio',
   },
-  description: 'Rajkot Startup Studio, a center by PIERC at Parul University, empowers innovators and entrepreneurs in Gujarat. We offer incubation, mentorship, co-working spaces, and resources to build, launch, and scale successful startups.',
+  description: 'Rajkot Startup Studio, a center by PIERC ,Parul University, empowers innovators and entrepreneurs in Gujarat. We offer incubation, mentorship, co-working spaces, and resources to build, launch, and scale successful startups.',
   keywords: ['startup studio', 'Rajkot', 'Gujarat', 'entrepreneurship', 'incubation center', 'co-working space', 'PIERC', 'Parul University', 'startup funding', 'mentorship'],
   openGraph: {
     title: 'Rajkot Startup Studio | Innovation & Entrepreneurship in Gujarat',
@@ -61,6 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <head>
+        <meta name="google-site-verification" content="sFNTayNIsGkriK9rjtNYEJbLnLqZDKcOjP-oa82zPVU" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
