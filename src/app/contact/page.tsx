@@ -1,8 +1,7 @@
 
 'use client';
 
-import { useActionState } from 'react';
-import { useFormStatus } from 'react-dom';
+import { useActionState, useFormStatus } from 'react';
 import { useEffect, useRef } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { submitContactForm } from './actions';
@@ -36,7 +35,7 @@ const initialState = { message: '', error: '' };
 function SubmitButton() {
   const { pending } = useFormStatus();
   return (
-    <Button type="submit" disabled={pending} className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
+    <Button type="submit" disabled={pending} className="w-full bg-destructive hover:bg-destructive/90 text-destructive-foreground">
       {pending ? (
         <>
           <Loader2 className="mr-2 h-4 w-4 animate-spin" />
@@ -64,7 +63,7 @@ function ContactInfoCard({
   return (
     <Card className="text-center p-6 flex-1">
       <CardContent className="p-0 flex flex-col items-center">
-        <div className="text-accent mb-4">{icon}</div>
+        <div className="text-primary mb-4">{icon}</div>
         <h3 className="text-lg font-semibold text-foreground mb-2">{title}</h3>
         <div className="text-muted-foreground text-sm">{children}</div>
       </CardContent>
@@ -146,7 +145,7 @@ export default function ContactPage() {
                                     <Input id="email" name="email" type="email" placeholder="Your Email" required />
                                 </div>
                                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                    <Input id="phone" name="phone" type="tel" placeholder="Your Phone (Optional)" />
+                                    <Input id="phone" name="phone" type="tel" placeholder="Your Phone" required />
                                     <Input id="company" name="company" placeholder="Your Company (Optional)" />
                                 </div>
                                 <Textarea
