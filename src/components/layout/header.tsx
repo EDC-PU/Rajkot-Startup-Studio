@@ -41,7 +41,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-card/80 backdrop-blur-sm">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
+      <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
           <Image 
             src="https://firebasestorage.googleapis.com/v0/b/edc-pierc.appspot.com/o/RSS%20BLACK.png?alt=media&token=48d4da9f-1543-4c71-90c8-18fea38211a1"
