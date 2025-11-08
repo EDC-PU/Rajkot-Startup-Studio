@@ -18,6 +18,7 @@ import JoinNetwork from '@/components/home/join-network';
 import Features from '@/components/home/features';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import GovernorsCarousel from '@/components/about/governors-carousel';
+import Stats from '@/components/home/stats';
 
 
 const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
@@ -60,34 +61,21 @@ export default function Home() {
       </section>
 
       <JoinNetwork />
+      
+      <Stats />
 
       <Features />
 
       <section className="py-16 md:py-24 bg-card">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h2 className="text-3xl font-bold">Our Story</h2>
-              <p className="text-muted-foreground">
-                Rajkot Startup Studio, established by PIERC, Parul University in 2023, offers resources, guidance, and an acceleration program to aspiring entrepreneurs. With state-of-the-art infrastructure and mentorship, the studio promotes collaboration, innovation, and inclusivity, serving as the management center for other startup studios in the state.
-              </p>
-               <h3 className="text-2xl font-bold pt-4">PU Startup Studios</h3>
-               <p className="text-muted-foreground">
-                PIERC is expanding its reach with the opening of new extension branches in Rajkot, Vadodara, Ahmedabad, and Surat. This expansion reflects PIERC's continued commitment to providing businesses with innovative solutions and personalized services while reaching out to new communities in Gujarat. We are proud of PIERC's dedication to empowering businesses with cutting-edge technologies and services that drive growth and success. We invite all entrepreneurs and business owners in these regions to visit our new branches and experience the value that PIERC can bring to their businesses.
-               </p>
+          <div className="space-y-6">
+            <div className='text-center'>
+              <h2 className="text-3xl font-bold">About PIERC</h2>
+              <p className="text-muted-foreground text-lg mt-2">Ideation - Innovation - Incubation</p>
             </div>
-             <div className="w-full">
-                <AspectRatio ratio={16 / 9}>
-                    <iframe
-                        className="rounded-lg w-full h-full"
-                        src="https://www.youtube.com/embed/vHytSZMfEKU"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
-                </AspectRatio>
-            </div>
+            <p className="text-muted-foreground text-center max-w-4xl mx-auto">
+              Established in 2013, Entrepreneurship Development Cell (EDC) is one of the creative hubs of Parul University formed to support students and aspiring entrepreneurs in their entrepreneurial endeavors. EDC was established with an aim to foster the culture of Research, Innovation and Entrepreneurship in students and faculty members of the university. In 2015, the university registered a Section 8 company, Parul Innovation and Entrepreneurship Research Center (PIERC) as an incubator to formally extend its services and support to start-ups; from Idea Stage to Growth Stage. PIERC comprises a dedicated team of Incubation Managers and staff members that work towards developing the start-up and entrepreneurship ecosystem of the university and region. With the support from PIERC, a large number of entrepreneurs have successfully taken their startups to new heights.
+            </p>
           </div>
         </div>
       </section>
