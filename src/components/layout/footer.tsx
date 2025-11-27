@@ -76,7 +76,7 @@ export default function Footer() {
 
           <div>
             <a href="https://maps.app.goo.gl/7r2eDgjYcwPR4uJq9" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                <h4 className="font-semibold mb-2 text-foreground">Vadodara Startup Studio</h4>
+                <h4 className="font-semibold mb-2 text-foreground">Rajkot Startup Studio</h4>
                 <p className="text-sm text-muted-foreground">
                 409, The Millenium, Circle, 150 Feet Ring Rd, nr. Nana Mava, Padmi Society, Mavdi, Rajkot, Gujarat 360005
                 </p>
