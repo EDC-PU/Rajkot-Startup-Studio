@@ -39,11 +39,11 @@ const people = [
     imageId: 'governor-komal',
   },
   {
-    name: 'Dr. Amit Ganatra',
-    designation: 'Vice Chancellor (Provost)',
+    name: 'Dr. Kunjal Sinha',
+    designation: 'Pro-Vice Chancellor',
     description:
       "'I am truly honoured to be a part of PU and I believe that we will be able to go a long in achieving greater heights for the University across all spheres and as long as we work together, we will surely develop the future careers of our students and the many youths across the nation', shared Dr. Ganatra.",
-    imageId: 'governor-amit',
+    imageId: 'governor-kunjal',
   },
   {
     name: 'Manish Pandya',
