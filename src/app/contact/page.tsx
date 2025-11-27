@@ -118,10 +118,9 @@ export default function ContactPage() {
                             rel="noopener noreferrer"
                             className="hover:text-primary transition-colors"
                         >
-                            PARUL INNOVATION & ENTREPRENEURSHIP RESEARCH CENTRE (PIERC)
+                           Rajkot Startup Studio
                             <br />
-                            BBA Building, Parul University P.O.Limda, Ta.Waghodia – 391760 Dist.
-                            Vadodara, Gujarat (India)
+                            409, The Millenium, Circle, 150 Feet Ring Rd, nr. Nana Mava, Padmi Society, Mavdi, Rajkot, Gujarat 360005
                         </a>
                     </ContactInfoCard>
                      <ContactInfoCard
@@ -129,10 +128,10 @@ export default function ContactPage() {
                         title="Email Us"
                         >
                         <a
-                            href="mailto:pierc@paruluniversity.ac.in"
+                            href="mailto:rajkotstartupstudio@paruluniversity.ac.in"
                             className="hover:text-primary transition-colors"
                         >
-                            pierc@paruluniversity.ac.in
+                            rajkotstartupstudio@paruluniversity.ac.in
                         </a>
                      </ContactInfoCard>
                 </div>
