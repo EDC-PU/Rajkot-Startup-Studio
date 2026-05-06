@@ -74,6 +74,7 @@ export default function Header() {
           
           <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank"/>
           <NavLink href="https://www.pierc.org/Newsletter" label="Newsletter" target="_blank"/>
+          <NavLink href="/startup-support" label="Apply For Startup Support" />
           <NavLink href="/contact" label="Contact" />
         </nav>
 
@@ -119,6 +120,7 @@ export default function Header() {
                         </div>
                         <NavLink href="https://youtube.com/playlist?list=PLOKNrldi7ClhJNZHbwbB7IZFRXMjD5Z_3&si=_IHihs2NGbHxkbef" label="Startup School" target="_blank" onClick={() => setSheetOpen(false)} />
                         <NavLink href="https://www.pierc.org/Newsletter" label="Newsletter" target="_blank" onClick={() => setSheetOpen(false)} />
+                        <NavLink href="/startup-support" label="Apply For Startup Support" onClick={() => setSheetOpen(false)} />
                         <NavLink href="/contact" label="Contact" onClick={() => setSheetOpen(false)} />
                          <div className="mt-4">
                             <Link href="https://pierc.org" target="_blank" rel="noopener noreferrer">

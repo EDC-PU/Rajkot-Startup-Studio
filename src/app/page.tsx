@@ -50,7 +50,7 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg">
-                <Link href="/startup-support">Apply For Startup Support</Link>
+                <Link href="/incubation-application">Incubation Program Application</Link>
               </Button>
               <Button asChild size="lg" variant="outline">
                 <Link href="/book-seats">Book Seats</Link>
