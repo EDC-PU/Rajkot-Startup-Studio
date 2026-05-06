@@ -1,8 +1,8 @@
 
 'use client';
 
-import { useEffect, useRef } from 'react';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useEffect, useRef, useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { submitApplication } from './actions';
 import { useToast } from '@/hooks/use-toast';
 import { Button } from '@/components/ui/button';
@@ -33,7 +33,7 @@ function SubmitButton() {
 }
 
 export default function IncubationApplicationPage() {
-  const [state, formAction] = useFormState(submitApplication, initialState);
+  const [state, formAction] = useActionState(submitApplication, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
@@ -64,12 +64,21 @@ export default function IncubationApplicationPage() {
   return (
     <div className="min-h-screen bg-card/30 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 space-y-4">
           <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight text-foreground mb-4">
             Incubation Program <span className="text-gradient">Application</span>
           </h1>
-          <p className="text-lg text-muted-foreground">
-            Complete the form below to apply for our 6-day offline incubation program in Rajkot.
+          <p className="text-xl font-semibold text-foreground">
+            Turn your ideas into action.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Apply to join Rajkot Startup Studio’s 6-Day Certificate Program in Entrepreneurship — designed to help you move from idea → execution.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Whether you already have a startup idea or are just getting started, this program will guide you through validation, strategy, and real-world execution with expert mentorship.
+          </p>
+          <p className="text-md text-muted-foreground/80 pt-4">
+            Complete the form below to apply.
           </p>
         </div>
 
