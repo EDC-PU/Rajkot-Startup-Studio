@@ -42,7 +42,7 @@ export type ActionState = {
 
 export async function submitApplication(prevState: ActionState, formData: FormData): Promise<ActionState> {
   const helpNeeded = formData.getAll('helpNeeded') as string[];
-  
+
   const validatedFields = ApplicationSchema.safeParse({
     fullName: formData.get('fullName'),
     contactNumber: formData.get('contactNumber'),
@@ -69,7 +69,7 @@ export async function submitApplication(prevState: ActionState, formData: FormDa
     // Google Sheets integration via Google Apps Script
     // Replace with your actual Google Apps Script Web App URL
     const GOOGLE_SCRIPT_URL = process.env.GOOGLE_SHEET_URL || 'https://script.google.com/macros/s/AKfycbz_XXXXXXXXX/exec';
-    
+
     const response = await fetch(GOOGLE_SCRIPT_URL, {
       method: 'POST',
       headers: {
@@ -78,7 +78,7 @@ export async function submitApplication(prevState: ActionState, formData: FormDa
       body: JSON.stringify({
         ...data,
         helpNeeded: data.helpNeeded.join(', '),
-        timestamp: new Date().toLocaleString('en-IN', { 
+        timestamp: new Date().toLocaleString('en-IN', {
           timeZone: 'Asia/Kolkata',
           day: '2-digit',
           month: '2-digit',
@@ -86,7 +86,7 @@ export async function submitApplication(prevState: ActionState, formData: FormDa
           hour: '2-digit',
           minute: '2-digit',
           second: '2-digit',
-          hour12: true 
+          hour12: true
         }),
       }),
     });
@@ -94,14 +94,14 @@ export async function submitApplication(prevState: ActionState, formData: FormDa
     // Note: Google Apps Script usually returns a redirect or a JSON response.
     // If you haven't set up the script yet, this fetch might fail or return a 404.
     // We'll treat it as success for the UI demo, but log if it fails.
-    
+
     if (!response.ok && GOOGLE_SCRIPT_URL.includes('XXXXXXXXX')) {
-       console.warn('Google Sheet URL not configured. Data not saved to sheet.');
+      console.warn('Google Sheet URL not configured. Data not saved to sheet.');
     }
 
     return {
-      success: true, 
-      message: 'Your application has been submitted successfully! We will contact you soon.' 
+      success: true,
+      message: 'Your application has been submitted successfully! We will contact you soon.'
     };
   } catch (error) {
     console.error('Submission error:', error);
